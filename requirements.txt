@@ -1,0 +1,7 @@
+pandas
+matplotlib
+requests 
+pydantic 
+python-dotenv
+tqdm
+ddgs

@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "К сожалению, у меня нет информации о вынесении приговора Асии Андраби 24 марта 2026 года, так как не удалось найти актуальные данные по этому вопросу. FINAL: Нет информации.",
+ "correct": false,
+ "cost": 0.00193755000000001,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_A5rfAT1hlFyyxTTG4xe2wegS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_A5rfAT1hlFyyxTTG4xe2wegS",
+   "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. Until her arrest, she was one of the most important women separatists in the valley. She married Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA). == Personal life and education == Asiya did her BSc in Biochemistry. She did her post graduation in Arabic from Kashmir University. She married Ashiq Hussain Faktoo in 1990. As of 2015, Asiya's husband Faktoo has been in jail for 23 years. Her younger son, 15-year-old Ahmed bin Qasim, was in class IX in Srinagar while her older son, 22-year-old Muhammad bin Qasim, was living with Andrabi's elder sister in Malaysia in 2015. He was the captain of his university cricket team in 2015. Most of Asiya’s relatives have shifted to Pakistan, Saudi Arabia, England and Malaysia. One of her nephews, Zulqarnain is a captain in the Pakistan Army and a second nephew Irtiyaz-un-Nabi is an aeronautical engineer and lecturer in the International Islamic University, Islamabad. Andrabi founded her religious beliefs on"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0tsmyafyEWutjyXroblXDg8O",
+     "function": {
+      "name": "news",
+      "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026 India\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0tsmyafyEWutjyXroblXDg8O",
+   "content": "tool error: DDGSException: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ylubkUmDeKiUahGkYDJXdKUD",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi court ruling March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ylubkUmDeKiUahGkYDJXdKUD",
+   "content": "[Unlawful Activities (Prevention) Act, 1967] The Unlawful Activities (Prevention) Act, 1967 is an Indian law aimed at the prevention of unlawful activities associations in India. Its main objective was to make powers available for dealing with activities directed against the integrity and sovereignty of India. The most recent amendment of the law, the Unlawful Activities (Prevention) Amendment Act, 2019 (UAPA 2019) has made it possible for the Union Government to designate individuals as terrorists without following any formal judicial process. UAPA is also known as the \"Anti-terror law\". The National Integration Council appointed a Committee on National Integration and Regionalisation to look into the aspect of putting reasonable restrictions in the interests of the sovereignty and integrity of India. The agenda of the NIC limited itself to communalism, casteism and regionalism and not terrorism. Pursuant to the acceptance of recommendations of the committee, the Constitution (Sixteenth Amendment) Act, 1963 was enacted to impose, by law, reasonable restrictions in the interests of the sovereignty and integrity of India. In 2019, the BJP led NDA government claimed that in order to implement the provisions of 1963 Act, the Unlawful Activities (Prevention) Bill was introduced in the Parliament. United Nations special rapporteurs stated that the provisions of the UAPA 2019, contravenes several articles of the Universal Declaration of Human Rights and the International Covenant on Civil and Political Rights. BBC News has reported that people arrested and charged with UAPA find it harder to get bail. == History == Pursuant to the acceptance by Government of a unanimous recommendation of the Committee on National Integration and Regionalism appointed by the National Integration Council, the Constitution (Sixteenth Amendment) Act, 1963, was enacted empowering Parliament to impose, by law, reasonable restrictions in the interests of sovereignty and integrity of India, on th"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0rtVDBNC4Uw9fHn1dhTWYAnu",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi case news March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0rtVDBNC4Uw9fHn1dhTWYAnu",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. == Incumbents == === National office bearers === === State governments === === Union territory governments === == Events == === January === 2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh. 5 January – A magnitude 5.1 earthquake hits Assam, injuring three people. 9 January – Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh. At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January. 19 January – Nitin Nabin is elected as the National President of the Bharatiya Janata Party. At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand. 20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam. 21 January – An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat. A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported. 22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others. 24 January – A fire at a four-story building in Hyderabad, Telangana, kills six people. 26 January – Protests break out across the country over the UGC Bill 2026. 27 January – India and the European Union reach a free trade agreement. 28 January – 2026 Baramati Learjet 45 crash: Five people, including Maharashtra deputy chief minister, Ajit Pawar, are killed after a Learjet 45 crashes and explodes at Baramati Airport in Maharashtra. 29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups. 30 January – At least 25 people "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QwTSJ3ts2di1pd0t98MJL2QZ",
+     "function": {
+      "name": "news",
+      "arguments": "{\"query\":\"Asiya Andrabi ruling March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QwTSJ3ts2di1pd0t98MJL2QZ",
+   "content": "tool error: DDGSException: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xPA4kgrv9539SUShBzYfDANP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"current events Asiya Andrabi March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xPA4kgrv9539SUShBzYfDANP",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. == Incumbents == === National office bearers === === State governments === === Union territory governments === == Events == === January === 2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh. 5 January – A magnitude 5.1 earthquake hits Assam, injuring three people. 9 January – Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh. At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January. 19 January – Nitin Nabin is elected as the National President of the Bharatiya Janata Party. At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand. 20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam. 21 January – An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat. A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported. 22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others. 24 January – A fire at a four-story building in Hyderabad, Telangana, kills six people. 26 January – Protests break out across the country over the UGC Bill 2026. 27 January – India and the European Union reach a free trade agreement. 28 January – 2026 Baramati Learjet 45 crash: Five people, including Maharashtra deputy chief minister, Ajit Pawar, are killed after a Learjet 45 crashes and explodes at Baramati Airport in Maharashtra. 29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups. 30 January – At least 25 people "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ObOyZ5KaH9Lrzvm0RK5srAh3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentenced news March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ObOyZ5KaH9Lrzvm0RK5srAh3",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. == Incumbents == === National office bearers === === State governments === === Union territory governments === == Events == === January === 2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh. 5 January – A magnitude 5.1 earthquake hits Assam, injuring three people. 9 January – Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh. At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January. 19 January – Nitin Nabin is elected as the National President of the Bharatiya Janata Party. At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand. 20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam. 21 January – An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat. A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported. 22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others. 24 January – A fire at a four-story building in Hyderabad, Telangana, kills six people. 26 January – Protests break out across the country over the UGC Bill 2026. 27 January – India and the European Union reach a free trade agreement. 28 January – 2026 Baramati Learjet 45 crash: Five people, including Maharashtra deputy chief minister, Ajit Pawar, are killed after a Learjet 45 crashes and explodes at Baramati Airport in Maharashtra. 29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups. 30 January – At least 25 people "
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, у меня нет информации о вынесении приговора Асии Андраби 24 марта 2026 года, так как не удалось найти актуальные данные по этому вопросу. FINAL: Нет информации.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

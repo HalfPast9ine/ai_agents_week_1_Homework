@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-95",
+  "source": "fresh",
+  "question": "Which country won the 2026 Men's T20 World Cup in cricket?",
+  "answer": "India",
+  "evidence": "8 March – India beat New Zealand in the final match and win the 2026 Men's T20 World Cup in cricket.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: India",
+ "correct": true,
+ "cost": 0.004931000000000019,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 Men's T20 World Cup in cricket?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 Men's T20 World Cup in cricket.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Szj9J9s8WJpBMBqZ4uvE7n",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 Men's T20 World Cup cricket winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Szj9J9s8WJpBMBqZ4uvE7n",
+   "content": "[2026 Men's T20 World Cup final] The 2026 ICC Men's T20 World Cup final was a Twenty20 International (T20I) cricket match played at the Narendra Modi Stadium in Ahmedabad, India, on 8 March 2026 to determine the winner of the 2026 ICC Men's T20 World Cup. It was played between the defending champions India and New Zealand. New Zealand won the toss and elected to field first; India registered a score of 255/5 in their innings. In the second innings, New Zealand were all out for 159. India won the match by 96 runs, retaining the title they had won at the previous tournament. India became the first team in the tournament to win three T20 World Cup titles, defend their title, and the first host country to win the title. == Background == The 2026 ICC Men's T20 World Cup was the tenth edition of the ICC Men's T20 World Cup, a biennial world cup for cricket in Twenty20 International (T20I) format, organized by the International Cricket Council (ICC). In November 2021 as part of the 2024-2031 ICC men's hosts cycle, the ICC announced that the 2026 ICC Men's T20 World Cup would be played in India and Sri Lanka. On 6 November 2025, the ICC announced the finalised venues for the tournament, with the Narendra Modi Stadium in Ahmedabad, India named as the venue for the final scheduled for 8 March 2026. The match would have been moved to R. Premadasa Stadium in Colombo, Sri Lanka, if Pakistan had qualified. This was New Zealand's second T20 World Cup final after being runners-up in 2021 while it was India's fourth final, having been champions in 2007 and 2024 and runners-up in 2014. Before this match, India and New Zealand had played each other three times in the T20 World Cup, with New Zealand winning on all three occasions (2007, 2016 and 2021). == Road to the final == === Overview === Source: ESPNcricinfo === New Zealand === New Zealand began their T20 World Cup campaign with a victory over Afghanistan at M. A. Chidambaram Stadium in Chennai, and went on to defeat United Arab E"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: India",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

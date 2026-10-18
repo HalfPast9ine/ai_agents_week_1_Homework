@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-31",
+  "source": "fresh",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "answer": "Aibek Dädebai",
+  "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "web_search(\"Kazakhstan new government formation after August 23 2026 legislative election\")",
+ "correct": false,
+ "cost": 4.2899999999998495e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "web_search(\"Kazakhstan new government formation after August 23 2026 legislative election\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-107",
+  "source": "fresh",
+  "question": "What event occurs in Benin on January 11, 2026?",
+  "answer": "2026 Beninese parliamentary election",
+  "evidence": "January 11 – The 2026 Beninese parliamentary election is held.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "January 10 is Benin's National Voodoo Day (Fête du Vodoun), a public holiday; festivities often continue on January 11. In 2026, January 11 falls the day after this national celebration of Vodoun culture in Benin.",
+  "agent_ok": false
+ },
+ "answer": "I will search for information regarding the event that occurs in Benin on January 11, 2026. \n\nLet's start with a web search.",
+ "correct": false,
+ "cost": 4.934999999999662e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What event occurs in Benin on January 11, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will search for information regarding the event that occurs in Benin on January 11, 2026. \n\nLet's start with a web search.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

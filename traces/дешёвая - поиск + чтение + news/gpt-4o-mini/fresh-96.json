@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "fresh-96",
+  "source": "fresh",
+  "question": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?",
+  "answer": "Istanbul",
+  "evidence": "February 11 – 15 : 2026 European Men's and Women's Team Badminton Championships in Istanbul, Turkey",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Katowice",
+  "agent_ok": true
+ },
+ "answer": "ошибка: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

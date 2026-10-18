@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What position did Dharmendra Pradhan resign from in India in July 2026?",
+  "answer": "Education Minister",
+  "evidence": "July 25 – Indian Education Minister Dharmendra Pradhan resigns from the position in light of the protests over a NEET exam leak. Most of the protests ceased following his resignation.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, Dharmendra Pradhan resigned from the position of **Minister of Education** in July 2026. He had served in this role since July 2021. His resignation came following the 2026 NEET (UG) exam paper leakage scandal, which led to widespread protests and calls for his resignation.\n\nFINAL: Minister of Education",
+ "correct": false,
+ "cost": 0.009293999999999913,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What position did Dharmendra Pradhan resign from in India in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Dharmendra Pradhan's resignation in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01K37u6v8GtYPkNUUrC1h4sj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Dharmendra Pradhan resign July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01K37u6v8GtYPkNUUrC1h4sj",
+   "content": "[Dharmendra Pradhan] Dharmendra Pradhan (born 26 June 1969) is an Indian politician who served as the 9th Minister of Education from 2021 until his resignation in 2026. He previously served as Minister of Petroleum and Natural Gas from 2014 to 2021, Minister of Steel from 2019 to 2021, and Minister of Skill Development and Entrepreneurship from 2017 to 2024. Pradhan is currently a member of the Indian parliament representing the Sambalpur constituency in the Lok Sabha as a member of the Bharatiya Janata Party. Previously, he has also served as a member of Rajya Sabha representing Bihar and Madhya Pradesh. His tenure as the union education minister was marred with irregularities, including leakage of the scripts for 2024 and 2026 NEET (UG) exams. The government conducted a re-examination involving over 2.2 million students after the 2026 leakage. The irregularities led to suicides of at least 12 students, and has served as a catalyst to the 2026 Jantar Mantar protests in Delhi calling for Pradhan's resignation. The protests turned violent, with clashes occurring between protestors and law enforcement officials, followed by negotiations between government and protestors and resignation of Pradhan. == Early life and education == Pradhan was born on 26 June 1969 in Talcher, Odisha, to Debendra Pradhan, who served as Minister of State in the Vajpayee ministry (1998–2004), and Basanta Manjari Pradhan. His family hails from the Chasa community. He became active in student politics through the Akhil Bharatiya Vidyarthi Parishad (ABVP) in 1983 while at Talcher College, serving as president and later secretary of the student union. He earned a postgraduate degree in Anthropology from Utkal University in Bhubaneswar. == Political career == === Early political career === Pradhan was elected to the Odisha Legislative Assembly from Pallahara in 2000. He entered the Lok Sabha in 2004 representing Deogarh until the constituency was abolished in 2009. He also served as National Pres"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I can see that Dharmendra Pradhan resigned in 2026, and the article mentions he was the \"9th Minister of Education from 2021 until his resignation in 2026.\" The resignation was related to NEET exam paper leakages. Let me search for more specific details about the exact position and timing.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012LPtNgQZ9cb5XYmxtWzwuj",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Dharmendra Pradhan\", \"keywords\": \"resign July 2026 position minister education\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012LPtNgQZ9cb5XYmxtWzwuj",
+   "content": "Dharmendra Pradhan (born 26 June 1969) is an Indian politician who served as the 9th Minister of Education from 2021 until his resignation in 2026. He previously served as Minister of Petroleum and Natural Gas from 2014 to 2021, Minister of Steel from 2019 to 2021, and Minister of Skill Development and Entrepreneurship from 2017 to 2024. Pradhan is currently a member of the Indian parliament repre\nHis tenure as the union education minister was marred with irregularities, including leakage of the scripts for 2024 and 2026 NEET (UG) exams. The government conducted a re-examination involving over 2.2 million students after the 2026 leakage. The irregularities led to suicides of at least 12 students, and has served as a catalyst to the 2026 Jantar Mantar protests in Delhi calling for Pradhan's \nPradhan assumed office as Minister of Education in July 2021. He oversaw reforms to the National Testing Agency (NTA) and the implementation of policies aimed at improving entrance examinations, including commissioning a committee led by former ISRO chief Koppillil Radhakrishnan. In 2024, the ministry faced scrutiny following the 2024 NEET controversy. The Supreme Court of India found no evidence \nIn 2026, NEET-UG again became the subject of controversy after the National Testing Agency (NTA) cancelled the 3 May examination amid paper-leak allegations and scheduled a re-examination for 21 June 2026. On 6 June 2026, supporters of the Cockroach Janta Party, a satirical youth-led political movement, held a protest at Jantar Mantar in New Delhi and demanded Pradhan's resignation over examinatio"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, Dharmendra Pradhan resigned from the position of **Minister of Education** in July 2026. He had served in this role since July 2021. His resignation came following the 2026 NEET (UG) exam paper leakage scandal, which led to widespread protests and calls for his resignation.\n\nFINAL: Minister of Education",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

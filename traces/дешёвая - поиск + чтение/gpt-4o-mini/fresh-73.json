@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-73",
+  "source": "fresh",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "answer": "Han Hak-ja",
+  "evidence": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Han Hak-ja was sentenced to two years' imprisonment for bribery involving former first lady Kim Keon Hee on August 31, 2026. \n\nFINAL: Han Hak-ja",
+ "correct": true,
+ "cost": 0.00037005000000001065,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5yzdHR2aFJqWfVpMAP7Z4E4n",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"South Korea two years imprisonment bribery August 31 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5yzdHR2aFJqWfVpMAP7Z4E4n",
+   "content": "[2026 in South Korea] Scheduled events in 2026 in South Korea. == Incumbents == == Events == === January === 2 January – A KAI T-50 Golden Eagle of the Republic of Korea Air Force overturns during an emergency landing at Gwangju Air Base in Gwangju. Both pilots are unharmed. 16 January – Former president Yoon Suk Yeol is convicted and sentenced to five years' imprisonment on charges of abuse of power, obstruction of justice and falsification of documents in one of four trials relating to the 2024 South Korean martial law crisis. A massive fire breaks out at Guryong Village in Gangnam, Seoul. 21 January – Former prime minister Han Duck-soo is convicted and sentenced to 23 years' imprisonment on charges relating to the 2024 South Korean martial law crisis. 28 January – Former first lady Kim Keon Hee is convicted and sentenced to 20 months' imprisonment on charges of accepting bribes from the Unification Church. === February === 9 February – An AH-1S Cobra attack helicopter of the Republic of Korea Army crashes in Gapyeong County, killing its two crew. 10 February – Authorities carry out raids on the National Intelligence Service and the Korea Defense Intelligence Command as part of investigations into drone flights carried out into North Korea. 12 February – Former interior minister Lee Sang-min is convicted and sentenced to seven years' imprisonment on charges relating to the 2024 South Korean martial law crisis. 19 February – Former president Yoon Suk Yeol is convicted and sentenced to life imprisonment for insurrection relating to the 2024 South Korean martial law crisis. 25 February – An F-16 fighter jet of the Republic of Korea Air Force crashes near Yeongju, North Gyeongsang Province. The pilot safely ejects. 26 February – A Truth and Reconciliation Commission is convened to investigate anomalies in the international adoption of South Korean children. === March === 5 March – President Lee orders the activation of a ₩100 trillion (about US$68 billion) stabilizati"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_6XaEuc5qOtoHz3hBRSt9CzAA",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in South Korea\",\"keywords\":\"bribery, imprisonment, August 31\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_6XaEuc5qOtoHz3hBRSt9CzAA",
+   "content": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee."
+  },
+  {
+   "role": "assistant",
+   "content": "Han Hak-ja was sentenced to two years' imprisonment for bribery involving former first lady Kim Keon Hee on August 31, 2026. \n\nFINAL: Han Hak-ja",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

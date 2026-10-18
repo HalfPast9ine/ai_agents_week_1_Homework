@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "In which city did the 2026 Badminton Asia Championships take place in April?",
+  "answer": "Ningbo",
+  "evidence": "April 7 – 12 : 2026 Badminton Asia Championships in Ningbo, China",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Wuhan",
+  "agent_ok": true
+ },
+ "answer": "The 2026 Badminton Asia Championships took place in Ningbo, China. \n\nFINAL: Ningbo, China",
+ "correct": true,
+ "cost": 0.0003622500000000084,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "In which city did the 2026 Badminton Asia Championships take place in April?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_k5XjpDVMx1sMXEVXXAFq7DoK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Badminton Asia Championships April city location\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_k5XjpDVMx1sMXEVXXAFq7DoK",
+   "content": "[2026 Thomas & Uber Cup] The 2026 Thomas & Uber Cup was the 34th edition of the Thomas Cup and the 31st edition of the Uber Cup, hosted by Badminton Denmark and organised by Badminton World Federation (BWF). The tournaments were held at Horsens, Denmark, from 24 April to 3 May 2026. China successfully defended the Thomas Cup title after defeating France, bringing their total number of championships to 12. South Korea defeated defending champions China to win the Uber Cup for the third time. == Background == The Thomas Cup (named after Sir George Thomas) and Uber Cup (named after Betty Uber) are international badminton competitions featuring teams representing member nations of the Badminton World Federation (BWF), the global governing body for the sport and are held biennially since the 1984 edition. These tournaments aim to determine the best national teams in the men's and women's events, respectively. China are the defending champions, having defeated Indonesia in both the men's and women's team events in the previous edition respectively. === Hosting === Denmark will be hosting the Thomas and Uber Cup finals for the second time. The city of Aarhus hosted the postponed 2020 edition in 2021 due to the COVID-19 pandemic. This time, Horsens has been selected as the host city for the tournament. === Format === The competition begins with a group stage: the sixteen qualified teams are divided into four groups of four teams each. Each team will play each other once, with the top two teams advancing to the knockout stage. The eight qualified teams will be drawn and compete in a knockout format until the final. == Qualification == Denmark automatically qualified as the hosts and China qualified as the defending champions, respectively. === Thomas Cup === ^1 Since Denmark, the runner-up of the European qualification tournament, had already qualified as host, the spot was awarded to Germany as the best European team from World Team Rankings. Germany declined the invitation"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rHzTek8RjsVOWftQs2gWpLam",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Badminton Asia Championships\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rHzTek8RjsVOWftQs2gWpLam",
+   "content": "[2026 Badminton Asia Championships] The 2026 Badminton Asia Championships (officially known as the Bank of Ningbo Badminton Asia Championships 2026 for sponsorship reasons) was the 43rd edition of the Badminton Asia Championships. The tournament was organised by Badminton Asia and took place at the Ningbo Olympic Sports Center Gymnasium, Ningbo, China, from 7 to 12 April 2026 and had a total prize of US$550,000. == Tournament == The 2026 Badminton Asia Championships was the 43rd edition of the Badminton Asia Championships. This tournament was organized by Badminton Asia and hosted by the Chinese Badminton Association. === Venue === This tournament was held at the Ningbo Olympic Sports Center Gymnasium in Ningbo, Zhejiang, China. === Point distribution === Below is the point distribution table for each phase of the tournament based on the BWF points system for the Badminton Asia Championships, which is equivalent to a BWF World Tour Super 1000. === Prize pool === The total prize money is US$550,000 with the distribution of the prize money in accordance with BWF regulations. == Medal Summary == === Medalists === === Medal table === * Host nation (China) == Qualification == === Final standings === == Men's singles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Women's singles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Men's doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Women's doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Mixed doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom h"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Badminton Asia Championships took place in Ningbo, China. \n\nFINAL: Ningbo, China",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

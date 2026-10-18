@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-6",
+  "source": "fresh",
+  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+  "answer": "4,500",
+  "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "After the floods in August 2026, there were 519 people reported missing in the Tibet Autonomous Region of China. \n\nFINAL: 519",
+ "correct": false,
+ "cost": 0.0005288999999999988,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PXn4AHyChi5LmcYGXvYlOGgY",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Tibet floods August 2026 missing people report\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PXn4AHyChi5LmcYGXvYlOGgY",
+   "content": "[2026 Nepal–Tibet floods] On the morning of 26 August 2026, a series of flash floods and debris flows destroyed the Gyirong Port on the China–Nepal border and struck dozens of settlements along a 72 km (45 mi) stretch of the Trishuli River in Nepal. These events are also known as the 2026 Nepal-China floods, Bhotekoshi flood, or Rasuwa flood. At least 1,454 deaths and 5,285 missing persons in Nepal, and 43 deaths and 519 missing in the Tibet Autonomous Region of China were reported. The flood carried the bodies of some victims 250 km (160 mi) away into neighbouring India. The precipitating geological event, initially reported as a glacier collapse in the Langtang region of the Himalayas, caused a chain reaction whose tremors were detected by seismometers worldwide, with magnitudes reaching Ms 5.2. According to experts at the National Society for Earthquake Technology–Nepal (NSET), the University of Reading and Newcastle University, the flood was triggered by a large rock-ice avalanche originating from the Lirung massif, involving glacier ice and rock, which transformed into a highly mobile, long-runout debris flow and generated destructive downstream flooding. == Background == === Geography and history === The Trishuli River is joined by the Lhende Khola (also known as Lende River or Donglin Tsangpo in Lhasa Tibetan), which originates in Gyirong County, Tibet Autonomous Region before entering Nepal. It then flows past Dhunche, downstream from which it forms part of the Trishuli River system. The flash floods and mudslides occurred around the China–Nepal border crossing at Gyirong Port, a strategic border crossing connecting Nepal's Rasuwa District and Gyirong County, located at the confluence of the Trishuli and Lhende Khola rivers. The crossing saw large amounts of daily traffic related to both commerce and tourism, especially the pilgrimage tour to Mount Kailash, a holy site in Bon, Buddhism, Hinduism and Jainism. The Gyirong crossing accounted for 30% of all Nepa"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_l9D8wZiVfRxZ6nP0RznJqryB",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 Nepal–Tibet floods\", \"keywords\": \"missing people\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_ckb3s66yF5b4dfEjMQTgbeih",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 Nepal–Tibet floods\", \"keywords\": \"Tibet floods August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_l9D8wZiVfRxZ6nP0RznJqryB",
+   "content": "At least 1,454 deaths and 5,285 missing persons in Nepal, and 43 deaths and 519 missing in the Tibet Autonomous Region of China were reported. The flood carried the bodies of some victims  250 km (160 mi) away into neighbouring India.\nThe flash floods and mudslides occurred around the China–Nepal border crossing at Gyirong Port, a strategic border crossing connecting Nepal's Rasuwa District and Gyirong County, located at the confluence of the Trishuli and Lhende Khola rivers. The crossing saw large amounts of daily traffic related to both commerce and tourism, especially the pilgrimage tour to Mount Kailash, a holy site in Bon,\nSince 1900, dozens of floods have occurred near the border between Nepal and China. Langtang Lirung, opposite the site of the 2026 landslide, experienced a major glacier collapse and debris avalanche triggered by the April and May 2015 Nepal earthquakes. The landslide in the Langtang valley destroyed and buried several villages, killing over 350 people. A July 2025 flood caused by a glacial lake o\nAs of 4 October, at least 1,454 people died, 9,287 were injured, and 5,285 were missing in Nepal. Among the missing were 650 foreign nationals from 38 countries. According to the Ministry of Health on 1 September, just 4% of the roughly 900 bodies found so far had been identified. The National Disaster Risk Reduction and Management Authority (NDRRMA) stated on 2 September that nearly 1.6 million p\nAs of 16 September, 43 people died and 519 were missing in Tibet. Among the missing in Tibet include 261 foreign nationals from 23 countries. This includes 104 Nepali nationals.\nAmong the missing in Nepal include 189 Indians, 188 Nepali tourists, 65 Americans, 55 Malaysians, 54 Ukrainians, 37 Chinese, 33 Australians, 33 Latvians, 32 British, and 30 Canadians. The Chinese Ministry of Foreign Affairs reported nearly 100 Chinese citizens in Nepal missing. Australia's foreign minister said on 27 August that at least 34 of the missing were pilgrims. A group of "
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ckb3s66yF5b4dfEjMQTgbeih",
+   "content": "On the morning of 26 August 2026, a series of flash floods and debris flows destroyed the Gyirong Port on the China–Nepal border and struck dozens of settlements along a 72 km (45 mi) stretch of the Trishuli River in Nepal. These events are also known as the 2026 Nepal-China floods, Bhotekoshi flood, or Rasuwa flood.\nThe flash floods and mudslides occurred around the China–Nepal border crossing at Gyirong Port, a strategic border crossing connecting Nepal's Rasuwa District and Gyirong County, located at the confluence of the Trishuli and Lhende Khola rivers. The crossing saw large amounts of daily traffic related to both commerce and tourism, especially the pilgrimage tour to Mount Kailash, a holy site in Bon,\nSince 1900, dozens of floods have occurred near the border between Nepal and China. Langtang Lirung, opposite the site of the 2026 landslide, experienced a major glacier collapse and debris avalanche triggered by the April and May 2015 Nepal earthquakes. The landslide in the Langtang valley destroyed and buried several villages, killing over 350 people. A July 2025 flood caused by a glacial lake o\nAnalysis of satellite imagery found that from 8 January 2026 to 18 August 2026, the glacier north of Langtang Lirung moved around 10 millimetres per month, but the rate accelerated in the weeks prior to the glacier's collapse.\nChinese and Nepali scientists have maintained a flash flood early warning system for years, which the South China Morning Post credited with consistently preventing casualties. The system did not detect the August 2026 flood in time as the water level monitors were configured for detecting monsoon and perennial floods. Upstream monitoring stations in Nepal were swept away by the flooding before al\nAfter the 2025 floods, Chinese authorities in Gyirong County took a number of measures in preparation for a new glacial lake outburst flood. The local government updated emergency plans, set up a sentry system monitoring water level changes, construct"
+  },
+  {
+   "role": "assistant",
+   "content": "After the floods in August 2026, there were 519 people reported missing in the Tibet Autonomous Region of China. \n\nFINAL: 519",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the information I found, while the page mentions March 25, 2026 (not March 24), Asiya Andrabi received **life imprisonment** for her conviction under the Unlawful Activities (Prevention) Act by a court in Delhi. This sentence came following her arrest in 2018 by the National Investigation Agency (NIA).\n\nNote: The date found in the source is March 25, 2026, not March 24, 2026. It's possible there's a date discrepancy in your question or the sources.\n\nFINAL: Life imprisonment under the Unlawful Activities (Prevention) Act",
+ "correct": true,
+ "cost": 0.00904399999999983,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Asiya Andrabi and the sentence she received on March 24, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CFJXWTtWZyChbGQWxty4EJ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Asiya Andrabi sentence March 24 2026 India\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CFJXWTtWZyChbGQWxty4EJ",
+   "content": "[Asiya Andrabi] Asiya Andrabi is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. Until her arrest, she was one of the most important women separatists in the valley. She married Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA). == Personal life and education == Asiya did her BSc in Biochemistry. She did her post graduation in Arabic from Kashmir University. She married Ashiq Hussain Faktoo in 1990. As of 2015, Asiya's husband Faktoo has been in jail for 23 years. Her younger son, 15-year-old Ahmed bin Qasim, was in class IX in Srinagar while her older son, 22-year-old Muhammad bin Qasim, was living with Andrabi's elder sister in Malaysia in 2015. He was the captain of his university cricket team in 2015. Most of Asiya’s relatives have shifted to Pakistan, Saudi Arabia, England and Malaysia. One of her nephews, Zulqarnain is a captain in the Pakistan Army and a second nephew Irtiyaz-un-Nabi is an aeronautical engineer and lecturer in the International Islamic University, Islamabad. Andrabi founded her religious beliefs on"
+  },
+  {
+   "role": "assistant",
+   "content": "The search result provides background on Asiya Andrabi but doesn't contain information about a specific sentence on March 24, 2026. Let me search for more recent information about her conviction or sentencing.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XWq3sryYXBRoBzKwjNc3wQ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Asiya Andrabi\", \"keywords\": \"sentence conviction March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XWq3sryYXBRoBzKwjNc3wQ",
+   "content": "On 25 March 2026 she got life imprisonment for her conviction in Unlawful Activities (Prevention) Act by a court in Delhi following her arrest in 2018 by National Investigation Agency."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the information I found, while the page mentions March 25, 2026 (not March 24), Asiya Andrabi received **life imprisonment** for her conviction under the Unlawful Activities (Prevention) Act by a court in Delhi. This sentence came following her arrest in 2018 by the National Investigation Agency (NIA).\n\nNote: The date found in the source is March 25, 2026, not March 24, 2026. It's possible there's a date discrepancy in your question or the sources.\n\nFINAL: Life imprisonment under the Unlawful Activities (Prevention) Act",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

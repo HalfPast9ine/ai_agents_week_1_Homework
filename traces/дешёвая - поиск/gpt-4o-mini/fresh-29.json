@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "fresh-29",
+  "source": "fresh",
+  "question": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?",
+  "answer": "43",
+  "evidence": "18 January – Two high-speed trains derail and collide near Adamuz, killing 43 people.",
+  "page": "2026 in Spain",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "ошибка: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

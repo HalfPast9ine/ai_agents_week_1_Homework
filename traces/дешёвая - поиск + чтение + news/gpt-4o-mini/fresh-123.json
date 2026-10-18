@@ -1,0 +1,134 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "В июне 2026 года Burkina Faso (Буркина-Фасо) официально разорвала дипломатические отношения с Францией, обвиняя ее в неоколониализме и поддержке террористических действий в регионе Сахеля. \n\nFINAL: Burkina Faso",
+ "correct": true,
+ "cost": 0.0008554499999999798,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9OrhQadpjuQRdZK2OqttOX1B",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9OrhQadpjuQRdZK2OqttOX1B",
+   "content": "[International recognition of Israel] As of February 2026, the State of Israel is recognized as a sovereign state by 169 of the other 192 member states of the United Nations, or approximately 88% of all UN members. The State of Israel was formally established by the Israeli Declaration of Independence on 14 May 1948, and was admitted to the United Nations (UN) as a full member state on 11 May 1949. It also maintains bilateral ties with all of the UNSC Permanent Five. Twenty-three member states have either never formally recognized Israel or have withdrawn their recognition; others have severed diplomatic relations without explicitly withdrawing their recognition. Additionally, many non-recognizing countries have challenged Israel's existence—predominantly those in the Muslim world—due to significant animosity stemming from the Israeli–Palestinian conflict and the Arab–Israeli conflict. == History == On 14 May 1948, the Israeli Declaration of Independence declared the establishment a Jewish state in part of the former British Mandate of Palestine, with borders formally established by the Green Line of the 1949 Armistice Agreements at the end of the 1948 Palestine war. The Arab League was opposed to any partition and to the establishment of Israel, and an Arab coalition jointly invaded the territory of the newly formed country one day after its independence, sparking the 1948 Arab–Israeli War. Following Israel's establishment, the Israeli provisional government was established to govern the Yishuv; and while military operations were still in progress, it was promptly granted de facto recognition by the United States, followed by Iran (which had voted against the Partition Plan), Guatemala, Iceland, Nicaragua, Romania, and Uruguay. The Soviet Union was the first country to grant de jure recognition to Israel on 17 May 1948, followed by Nicaragua, Czechoslovakia, Yugoslavia, and Poland. The United States extended de jure recognition after the first Israeli election, on "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Ra2t12nZNAsWxe9KR01I6YWf",
+     "function": {
+      "name": "news",
+      "arguments": "{\"query\":\"country breaks diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Ra2t12nZNAsWxe9KR01I6YWf",
+   "content": "{\"date\": \"2026-10-12T18:20:30+00:00\", \"title\": \"Breakdown of 3 African countries where French passport holders are blocked from visiting in 2026\", \"body\": \"By 2026, Niger, Mali and Burkina Faso had effectively shut out French passport holders, reflecting growing anti-French ...\", \"url\": \"https://www.msn.com/en-xl/africa/nigeria/breakdown-of-3-african-countries-where-french-passport-holders-are-blocked-from-visiting-in-2026/ar-AA2e44dk?ocid=BingNewsVerp\", \"image\": \"https://www.bing.com/th?id=ONUT.cj-a2LRANUZM5OGmaA121Q\", \"source\": \"Legit.ng on MSN\"}"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rlzZuSgooS8rUzJEnX9iOYNU",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Breakdown of 3 African countries where French passport holders are blocked from visiting in 2026\",\"keywords\":\"diplomatic relations, France, Niger, Mali, Burkina Faso\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rlzZuSgooS8rUzJEnX9iOYNU",
+   "content": "no such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wzJm4YIQHuihMiSVVFbEqfx8",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Niger Mali Burkina Faso diplomatic relations France June 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_pB7dtPPZ44FUhOciHt2AUa1W",
+     "function": {
+      "name": "news",
+      "arguments": "{\"query\": \"Niger Mali Burkina Faso relations with France 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wzJm4YIQHuihMiSVVFbEqfx8",
+   "content": "[Burkina Faso–France relations] Burkina Faso–France relations refers to the diplomatic relations between Burkina Faso and France. Diplomatic relations were established on 4 August 1960. Burkina Faso was formerly part of a French colony called French Upper Volta. France has special forces stationed in Burkina Faso. Burkina Faso has an embassy in Paris, and France has an embassy in Ouagadougou. In January 2023, Burkina Faso's military junta asked France to recall its ambassador amid a surge of anti-French sentiment as the country moved to develop closer ties to Russia. In June 2026, Burkina Faso formally severed diplomatic relations with France, accusing the former colonial ruler of neo-colonialism and allegedly supporting subversive activities and terrorists in the Sahel. == History == === Colonial period === Burkina Faso has been part of the CFA franc zone since 1945, when it was still the colony of Upper Volta and part of the General Government of French West Africa of the French colonial Empire. Burkina Faso has not changed its currency since then. === Republic of Upper Volta === The Republic of Upper Volta gained independence from France in 1958. Since its creation in 1970, Upper Volta and France have been full members of La Francophonie. Burkina Faso remains a member even after the overthrow of the Republic of Upper Volta. In 1975, France established the Saint-Exupéry French School in Ouagadougou, first as a primary school, then as a middle school and then as a high school. === Under the regime of Thomas Sankara === Since 1983, relations between Thomas Sankara and France had been strained due to his anti-imperialist stance, which challenged French influence in Upper Volta. Sankara accused French advisor Guy Penne of involvement in his 1983 arrest. Tensions worsened in 1984 when France rejected a visit by Burkinabe Minister Blaise Compaoré after executions in Ouagadougou. Sankara's Head of Security was arrested in France for \"common law crimes\". Burkina Faso accu"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pB7dtPPZ44FUhOciHt2AUa1W",
+   "content": "{\"date\": \"2026-08-04T21:00:00+00:00\", \"title\": \"An African country is now willing to welcome France back less than two years after ending 65 years of military ties\", \"body\": \"After being pushed out of Mali, Burkina Faso and Niger, and facing limited prospects of returning to those countries, France is reshaping its military strategy in Africa as it rebuilds ties with Chad ...\", \"url\": \"https://www.msn.com/en-za/news/other/an-african-country-is-now-willing-to-welcome-france-back-less-than-two-years-after-ending-65-years-of-military-ties/ar-AA29tcvb?ocid=BingNewsVerp\", \"image\": \"\", \"source\": \"MSN\"}"
+  },
+  {
+   "role": "assistant",
+   "content": "В июне 2026 года Burkina Faso (Буркина-Фасо) официально разорвала дипломатические отношения с Францией, обвиняя ее в неоколониализме и поддержке террористических действий в регионе Сахеля. \n\nFINAL: Burkina Faso",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

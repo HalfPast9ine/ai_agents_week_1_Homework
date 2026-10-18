@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "What are the dates for the 2026 Badminton Asia Championships in Ningbo, China?",
+  "answer": "April 7 – 12",
+  "evidence": "April 7 – 12 : 2026 Badminton Asia Championships in Ningbo, China",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "April 21–26, 2026",
+  "agent_ok": false
+ },
+ "answer": "The 2026 Badminton Asia Championships will take place from April 7 to April 12, 2026, in Ningbo, China. \n\nFINAL: April 7 to April 12, 2026",
+ "correct": false,
+ "cost": 0.0002458499999999919,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What are the dates for the 2026 Badminton Asia Championships in Ningbo, China?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_k15X4POpSdb0g6h29UZqE0im",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Badminton Asia Championships dates Ningbo, China\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_k15X4POpSdb0g6h29UZqE0im",
+   "content": "[2026 Badminton Asia Championships] The 2026 Badminton Asia Championships (officially known as the Bank of Ningbo Badminton Asia Championships 2026 for sponsorship reasons) was the 43rd edition of the Badminton Asia Championships. The tournament was organised by Badminton Asia and took place at the Ningbo Olympic Sports Center Gymnasium, Ningbo, China, from 7 to 12 April 2026 and had a total prize of US$550,000. == Tournament == The 2026 Badminton Asia Championships was the 43rd edition of the Badminton Asia Championships. This tournament was organized by Badminton Asia and hosted by the Chinese Badminton Association. === Venue === This tournament was held at the Ningbo Olympic Sports Center Gymnasium in Ningbo, Zhejiang, China. === Point distribution === Below is the point distribution table for each phase of the tournament based on the BWF points system for the Badminton Asia Championships, which is equivalent to a BWF World Tour Super 1000. === Prize pool === The total prize money is US$550,000 with the distribution of the prize money in accordance with BWF regulations. == Medal Summary == === Medalists === === Medal table === * Host nation (China) == Qualification == === Final standings === == Men's singles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Women's singles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Men's doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Women's doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Mixed doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom h"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Badminton Asia Championships will take place from April 7 to April 12, 2026, in Ningbo, China. \n\nFINAL: April 7 to April 12, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

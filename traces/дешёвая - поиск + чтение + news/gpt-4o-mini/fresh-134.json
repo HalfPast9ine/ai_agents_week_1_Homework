@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "What city will host the 2026 Central American and Caribbean Games in July 2026?",
+  "answer": "Santo Domingo",
+  "evidence": "July 24 – August 8: 2026 Central American and Caribbean Games in Santo Domingo",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Barranquilla, Colombia",
+  "agent_ok": true
+ },
+ "answer": "The 2026 Central American and Caribbean Games will be hosted in Santo Domingo, the capital of the Dominican Republic. \n\nFINAL: Santo Domingo",
+ "correct": true,
+ "cost": 0.0002326500000000009,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What city will host the 2026 Central American and Caribbean Games in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_6Xg7mSpSJ5tr5Tz6D7FQvL28",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Central American and Caribbean Games host city\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_6Xg7mSpSJ5tr5Tz6D7FQvL28",
+   "content": "[2026 Central American and Caribbean Games] The 2026 Central American and Caribbean Games (Spanish: Juegos Deportivos Centroamericanos y del Caribe Santo Domingo 2026), also known as the 25th Central American and Caribbean Games and commonly referred as Santo Domingo 2026, was the 25th edition of the Central American and Caribbean Games, a quadrennial sports multi-sport event. The Games took place from 24 July to 8 August 2026 in Santo Domingo, the capital and largest city of the Dominican Republic. This was both the 25th edition of the games and centennial anniversary since the inaugural games in 1926. The members of Centro Caribe Sports voted unanimously to grant the Games to Santo Domingo in their Extraordinary General Assembly in February 2022. It was the third time the games were held in the Dominican Republic after Santo Domingo hosted them in 1974 and Santiago de los Caballeros hosted them in 1986. In March 2023, the organizers, along with CANOC President Keith Joseph proposed the inclusion of cricket in the event, which is planned to make a return in the 2028 Summer Olympics but, it was ultimately not included in the final program. Esports and skateboarding also made their debut in 2026. Meanwhile, squash made its return for the first time since 2018, alongside water skiing, returning for the first time since 2010. == Bidding process == == Development and preparation == Santo Domingo zone (thirty-two sports) Parque del Este zone (ten sports) South Zone (one sports) East Zone (three sports) Zona Norte (five sports) Non-competitive === Organizing committee === On 30 May 2022, the Dominican Republic president Luis Abinader swore in the Organizing Committee composed of the first vice-president Felipe Vicini; second vice-president Antonio Acosta; third vice-president José Manuel Ramos; Ministry of Sports Francisco Camacho as Secretary General; treasurer Mercedes Canalda; Minister of Public Works Deligne Ascención; Major of Santo Domingo Carolina Mejía; members Fr"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Central American and Caribbean Games will be hosted in Santo Domingo, the capital of the Dominican Republic. \n\nFINAL: Santo Domingo",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

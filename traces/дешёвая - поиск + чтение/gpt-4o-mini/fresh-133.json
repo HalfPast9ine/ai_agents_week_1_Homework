@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "What is the location of the 2026 Women's PGA Championship in June 2026?",
+  "answer": "Hazeltine National Golf Club",
+  "evidence": "June 25–28: 2026 Women's PGA Championship in Hazeltine National Golf Club in Chaska, Minnesota – Ryu Hae-ran",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Sahalee Country Club in Sammamish, Washington",
+  "agent_ok": true
+ },
+ "answer": "The 2026 Women's PGA Championship will be held at Hazeltine National Golf Club in Chaska, Minnesota, from June 25 to June 28, 2026. \n\nFINAL: Hazeltine National Golf Club, Chaska, Minnesota.",
+ "correct": true,
+ "cost": 0.00022845000000004667,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What is the location of the 2026 Women's PGA Championship in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3j8jCYPiLsdEyU42klyy47Z5",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Women's PGA Championship location\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3j8jCYPiLsdEyU42klyy47Z5",
+   "content": "[2026 Women's PGA Championship] The 2026 KPMG Women's PGA Championship is the 72nd Women's PGA Championship. It is being played June 25–28 at Hazeltine National Golf Club in Chaska, Minnesota. Hazeltine previously hosted the Women's PGA Championship in 2019, won by Hannah Green. It also hosted the U.S. Women's Open in 1966 and 1977. The PGA Championship was the third of five major championships on the LPGA Tour during the 2026 season. Ryu Hae-ran won her first major championship by two strokes over Ina Yoon. == Field == The field included 156 players who met one or more of the selection criteria and commit to participate by a designated deadline. 1. Sponsor invitations 2. Past winners of the Women's PGA Championship Cristie Kerr did not play 3. Professionals who have won an LPGA major championship in the previous five years and during the current year 4. Professionals who have won an official LPGA tournament in the previous two calendar years and during the current year Madelene Sagström (11) and Bailey Tardy (11) did not play 5. Order of Merit winners from the Ladies European Tour, LPGA of Japan Tour, and LPGA of Korea Tour Shannon Tan Shuri Sakuma (7) and Yoo Hyun-jo (7) did not play 6. Professionals who finished top-10 and ties at the previous year's Women's PGA Championship 7. Professionals ranked No. 1–70 on the Women's World Golf Rankings on May 25, 2026 Yuna Araki, Bang Shin-sil, Hong Jung-min, Yui Kawamoto, Kim Min-sol, Ko Ji-won, Lee Da-yeon, Lee Ye-won, Ro Seung-hui, Jiyai Shin, Fuka Suga, Ai Suzuki, and Sayaka Takahashi did not play 8. The top eight finishers at the 2025 LPGA Professionals National Championship Stephanie Connelly Eiswerth did not play 9. The top finisher (not otherwise qualified via the 2025 LPGA Professionals National Championship) at the 2026 PGA Women's Stroke Play Championship Joanna Coe 10. Any player who did not compete in the 2025 KPMG Women's PGA Championship due to maternity Alison Lee 11. LPGA members who have committed to the e"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 Women's PGA Championship will be held at Hazeltine National Golf Club in Chaska, Minnesota, from June 25 to June 28, 2026. \n\nFINAL: Hazeltine National Golf Club, Chaska, Minnesota.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

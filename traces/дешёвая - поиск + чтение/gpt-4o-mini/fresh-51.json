@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-51",
+  "source": "fresh",
+  "question": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?",
+  "answer": "Bruno Foucher",
+  "evidence": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui from 2024 to 2026.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher. \n\nFINAL: Bruno Foucher",
+ "correct": true,
+ "cost": 0.00021345000000000391,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Sq0O4lEjBVuFeil0qIwdhWtm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"French ambassador to the Central African Republic disciplinary proceedings August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Sq0O4lEjBVuFeil0qIwdhWtm",
+   "content": "[2026 in the Central African Republic] The following is a list of events of the year 2026 in the Central African Republic. == Incumbents == President: Faustin-Archange Touadéra Prime Minister: Félix Moloua == Events == 19 January – The Constitutional Court validates President Faustin-Archange Touadéra's victory in the 2025 Central African general election. 12 March – Eight people are killed when an artisanal mine collapses in Nourroum, Ouham-Pendé. 16 June – The Special Criminal Court in Bangui begins the trial in absentia of former president François Bozizé, on charges of crimes against humanity, murder, enforced disappearances, rape committed by members of his Presidential Guard, and torture. 13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui between January 2024 and March 2026. 19 August – 2026 Zamboye mine collapse: At least 100 people are killed when an artisanal gold mine collapses due to a landslide in Zamboye, near Baboua. 23 September – The International Criminal Court convicts former Seleka commander Mahamat Said Abdel Kani of crimes against humanity during his administration of running a detention facility in Bangui during the Central African Republic Civil War in 2013. == Holidays == Source: 1 January – New Year's Day 29 March – Barthelemy Boganda Day 30 March – Korité 6 April – Easter Monday 1 May – Labour Day 14 May – Ascension Day 25 May – Whit Monday 6 June – Tabaski 30 June – General Prayer Day 13 August – Independence Day 15 August – Assumption Day 1 November – All Saints' Day 1 December – National Day 25 December – Christmas Day == See also == African Continental Free Trade Area Community of Sahel–Saharan States == References == == External links == Online calendar"
+  },
+  {
+   "role": "assistant",
+   "content": "The name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 is Bruno Foucher. \n\nFINAL: Bruno Foucher",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

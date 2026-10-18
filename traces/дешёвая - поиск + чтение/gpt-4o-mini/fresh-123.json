@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Burkina Faso",
+ "correct": true,
+ "cost": 0.0004906500000000369,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_P3TommM31Bqkj2MwT2daNSUP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France in June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_P3TommM31Bqkj2MwT2daNSUP",
+   "content": "[Foreign relations of Israel] Foreign relations of Israel refers to diplomatic and trade relations between Israel and other countries around the world. Israel has diplomatic ties with 165 of the other 192 UN member states as of 12 December 2020. Israel is a member of the United Nations (UN) and a number of other international organisations. Israel maintains full diplomatic relations with two of its Arab neighbours, Egypt and Jordan, after signing peace treaties in 1979 and 1994 respectively. In 2020, Israel signed agreements establishing diplomatic relations with three Arab League countries, Bahrain, the United Arab Emirates, and Morocco. As of 2021, Israel had formal diplomatic relations with 168 countries, while 28 UN member states have either never established, or have broken off diplomatic relations with Israel. Israel's foreign relations are influenced primarily by Israel's strategic situation in the Middle East, the broader Arab–Israeli conflict and the conflict with Iran particularly over Iran's nuclear program, along with the rejection by regional states. Israel's foreign policy goals have therefore been to overcome diplomatic isolation and to achieve recognition and friendly relations with as many nations as possible, both in the Middle East region and further afield. Israel practices both open and secret diplomacy to further national goals, for example, commercial trade and science and technology cooperation, importing raw materials, engaging in military procurement as well as exporting arms and military assistance, intelligence cooperation with its allies, and prisoner-of-war exchanges and other arrangements for hostage releases. It has also sought to foster increased Jewish immigration to Israel and to protect vulnerable Jewish communities in the Diaspora, to offer aid to developing countries and humanitarian assistance to countries facing large-scale disasters. Israel's close friendship with the United States has been a linchpin of its foreign policy si"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bgmCvJjUczU7NkL65rbR5DEE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"France diplomatic relations June 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bgmCvJjUczU7NkL65rbR5DEE",
+   "content": "[2026 in France] Events in the year 2026 in France. == Incumbents == President: Emmanuel Macron Prime Minister: Sébastien Lecornu == Events == === January === 5 January – A court in Paris convicts ten people on charges of cyber-bullying first lady Brigitte Macron by spreading disinformation and \"malicious remarks\" over her gender, sexuality and personal life. 8 January – Laurent Vinatier, a French researcher imprisoned in Russia since 2024 on charges of failing to register as a \"foreign agent\", is released in a prisoner swap in exchange for Russian basketball player Daniil Kasatkin, who had been detained in France since 2025 on suspicion of involvement in cyberhacking. 15 January – President Macron announces the deployment of additional military forces to Greenland after a Defense Council meeting amid threats by the United States to annex the island. 18 January – The Piton de la Fournaise volcano in Réunion erupts. 23 January – Prime minister Lecornu survives two no-confidence motions filed against him by the LFI and RN over his efforts to pass the government's budget through rarely-invoked provisions of the constitution. 25 January – The French Navy intercepts an oil tanker suspected of being part of the Russian shadow fleet and tows it to Marseille for investigation. 27 January – Former senator Joël Guerriau is convicted of putting MDMA on a drink of MP Sandrine Josso in an attempt to sexually assault her in 2023 and is sentenced to four years' imprisonment. === February === 2 February The Lecornu government passes the annual budget after surviving two no-confidence motions filed by the LFI and RN. A French judge issues arrest warrants for two French-Israeli citizens, accusing them of \"complicity and incitement to genocide\" for blocking humanitarian aid trucks en route to Gaza. 3 February – A teacher is critically injured in a stabbing by a pupil inside a school in Toulon. 6 February – Greenland crisis: France announces that it will open a consulate in Greenland t"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_h4LCrvEAIA2de5pBcn2nnSyM",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":\"diplomatic relations France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_h4LCrvEAIA2de5pBcn2nnSyM",
+   "content": "26 June – Burkina Faso breaks off diplomatic relations with France."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Burkina Faso",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

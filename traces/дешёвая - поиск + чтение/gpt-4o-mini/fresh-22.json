@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The indie animated series created by Matt Braly is called \"Clara and the Below.\" \n\nFINAL: Clara and the Below",
+ "correct": true,
+ "cost": 0.0007618500000000084,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_f81utkN2tqSDituYucLVWA6O",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"indie animated series created by Matt Braly funded March 17, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_f81utkN2tqSDituYucLVWA6O",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. == Early life == Braly was born in Sacramento on November 8, 1988, and raised in Davis, while spending his summers, as a child, with his mother's family in Bangkok, Thailand. He also grew up in a bilingual household. As a child, Braly used to watch films such as Mortal Kombat (1995) because they were filmed in Thailand, as there was no Thai representation on television. He would later draw characters from franchises like Mortal Kombat and Sonic the Hedgehog. At age 17, in 2006, he graduated from Christian Brothers High School, a private, Catholic, college-preparatory high school in the Oak Park neighborhood of Sacramento. Prior to graduating, Braly was inspired to pursue a career in animation after a \"career day\" at high school, where a Pixar animator drew an image of Lumiere from Disney's Beauty and the Beast while talking about working on animation for a living. He started his career studying at the California Institute of the Arts (CalArts); he graduated in 2010 with a Bachelor of Fine Arts. == Career == After graduating from California Institute of the Arts, he joined DreamWorks Animation, where he worked as a storyboard artist for Turbo (2013). While working on Turbo, Braly and several other DreamWorks Animation storyboard artists went to visit Alex Hirsch, who was working on a show titled Gravity Falls (2012–16) for Disney Television Animation. Hirsch also went to CalArts and, while they never studied together, Braly liked his student films. During the visit, Hirsch pitched Gravity Falls to Braly. Fascinated by the concept and how Hirsch wanted it to be a serialized program, Braly did a test to work on the show, after which he was hired, serving as a storyboard art"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_yrebrTGKyflR4hmqmqBKff6z",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Matt_Braly\",\"keywords\":\"indie animated series March 17 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_yrebrTGKyflR4hmqmqBKff6z",
+   "content": "On February 11, 2026, Braly announced that he founded his own animation studio, Fantasy Project. Its first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter. On March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000. After less tha"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Rrx8xkhlyeKLuvepn5j0G73L",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Clara_and_the_Below\",\"keywords\":\"animated series Matt Braly\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Rrx8xkhlyeKLuvepn5j0G73L",
+   "content": "Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens.\nFascinated by the concept and how Hirsch wanted it to be a serialized program, Braly did a test to work on the show, after which he was hired, serving as a storyboard artist and director for the series. Braly credited Hirsch as the one who \"taught [him] so much about storytelling, about developing characters and developing a world\", as well as the one who inspired him to create his own show. The s\nAfter directing on Big City Greens, Braly developed a series titled Amphibia for Disney Channel. The series centers on the adventures of a Thai-American girl named Anne Boonchuy in the titular amphibian-populated world. The series was inspired by Braly's childhood trips to Bangkok, Thailand, where he felt like an outsider but ultimately ended up not wanting to leave. He also drew inspiration from \nBraly also developed a graphic novel, which was announced in August 2024 as Family Force V. Skybound Comet published the graphic novel in May 2025. Braly is also supervising development on a series of shorts exploring social issues. In November 2024, Braly responded to the reported shelving of an episode of Moon Girl and Devil Dinosaur, focusing on a transgender character, by Disney, calling it \"a\nOn February 11, 2026, Braly announced that he founded his own animation studio, Fantasy Project. Its first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter. On March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000. After less tha\nBraly is a fan of the Sonic the Hedgehog franchise, and was inspired by the opening sequence in the first ep"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Ll2B9QxPjjvf6IyG5icNTayB",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Clara_and_the_Below\",\"keywords\":\"gothic horror Nutcracker\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Ll2B9QxPjjvf6IyG5icNTayB",
+   "content": "On February 11, 2026, Braly announced that he founded his own animation studio, Fantasy Project. Its first project would be Clara and the Below, a gothic horror adaptation of The Nutcracker, with a crowdfunding campaign on Kickstarter. On March 17, 2026, Braly launched a Kickstarter for the series, with a goal of funding a single episode which was 6-10 minutes for a cost of $25,000. After less tha"
+  },
+  {
+   "role": "assistant",
+   "content": "The indie animated series created by Matt Braly is called \"Clara and the Below.\" \n\nFINAL: Clara and the Below",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

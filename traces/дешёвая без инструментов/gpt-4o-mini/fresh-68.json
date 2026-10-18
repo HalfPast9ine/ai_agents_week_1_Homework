@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-68",
+  "source": "fresh",
+  "question": "What is the name of the Canadian Prime Minister who announced a deal with India in March 2026?",
+  "answer": "Mark Carney",
+  "evidence": "2 March – Prime Minister Narendra Modi and Canadian Prime Minister Mark Carney announce that Canada and India have agreed to a deal that would strengthen their economic partnership, in a move aimed at boosting ties after two years of strained relationship between the two countries.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I will start by performing a web search to find information about the Canadian Prime Minister and the deal with India announced in March 2026. Please hold on. \n\nLet's begin with the search.",
+ "correct": false,
+ "cost": 5.564999999999737e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the Canadian Prime Minister who announced a deal with India in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will start by performing a web search to find information about the Canadian Prime Minister and the deal with India announced in March 2026. Please hold on. \n\nLet's begin with the search.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

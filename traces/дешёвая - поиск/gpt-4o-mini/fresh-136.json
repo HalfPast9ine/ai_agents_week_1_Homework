@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "Where will the 2026 African Badminton Championships take place in February 2026?",
+  "answer": "Gaborone, Botswana",
+  "evidence": "February 13 – 15 : 2026 African Badminton Championships in Gaborone, Botswana",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Cairo, Egypt",
+  "agent_ok": true
+ },
+ "answer": "The 2026 African Badminton Championships will take place at the Royal Aria in Gaborone, Botswana, from February 13 to 15, 2026.\n\nFINAL: Gaborone, Botswana",
+ "correct": true,
+ "cost": 0.00018480000000001273,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Where will the 2026 African Badminton Championships take place in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_loe8HBImiseWorBnJYbLfdX5",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 African Badminton Championships location February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_loe8HBImiseWorBnJYbLfdX5",
+   "content": "[2026 African Badminton Championships] The 2026 African Badminton Championships was the continental badminton championships to crown the best players across Africa. The tournament was held at the Royal Aria in Gaborone, Botswana, from 13 to 15 February 2026. == Tournament == The 2026 African Badminton Championships is organized by Botswana Badminton Association. === Venue === The tournament was held at the Royal Aria, Tlokweng, Gaborone, Botswana. === Point distribution === The individual event of this tournament was graded based on the BWF points system for the BWF International Challenge event. Below is the table with the point distribution for each phase of the tournament. == Medal summary == === Medalists === === Medal table === * Host nation (Botswana) == Men's singles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== ==== Section 3 ==== ==== Section 4 ==== === Bottom half === ==== Section 5 ==== ==== Section 6 ==== ==== Section 7 ==== ==== Section 8 ==== == Women's singles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Men's doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Women's doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == Mixed doubles == === Seeds === === Finals === === Top half === ==== Section 1 ==== ==== Section 2 ==== === Bottom half === ==== Section 3 ==== ==== Section 4 ==== == References =="
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 African Badminton Championships will take place at the Royal Aria in Gaborone, Botswana, from February 13 to 15, 2026.\n\nFINAL: Gaborone, Botswana",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on my search results, I was unable to find specific information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026. The search results only provided information about his well-known work on Disney Channel's \"Amphibia,\" as well as his contributions to \"Gravity Falls\" and \"Big City Greens,\" but did not contain details about an independent animated project with that specific funding date.\n\nFINAL: Я не смог найти информацию об этом проекте в доступных источниках.",
+ "correct": false,
+ "cost": 0.040101000000000164,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll help you find information about this indie animated series by Matt Braly.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QbvpoN3ZCx9QarSGwDeyYE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly indie animated series funded March 17 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QbvpoN3ZCx9QarSGwDeyYE",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. == Early life == Braly was born in Sacramento on November 8, 1988, and raised in Davis, while spending his summers, as a child, with his mother's family in Bangkok, Thailand. He also grew up in a bilingual household. As a child, Braly used to watch films such as Mortal Kombat (1995) because they were filmed in Thailand, as there was no Thai representation on television. He would later draw characters from franchises like Mortal Kombat and Sonic the Hedgehog. At age 17, in 2006, he graduated from Christian Brothers High School, a private, Catholic, college-preparatory high school in the Oak Park neighborhood of Sacramento. Prior to graduating, Braly was inspired to pursue a career in animation after a \"career day\" at high school, where a Pixar animator drew an image of Lumiere from Disney's Beauty and the Beast while talking about working on animation for a living. He started his career studying at the California Institute of the Arts (CalArts); he graduated in 2010 with a Bachelor of Fine Arts. == Career == After graduating from California Institute of the Arts, he joined DreamWorks Animation, where he worked as a storyboard artist for Turbo (2013). While working on Turbo, Braly and several other DreamWorks Animation storyboard artists went to visit Alex Hirsch, who was working on a show titled Gravity Falls (2012–16) for Disney Television Animation. Hirsch also went to CalArts and, while they never studied together, Braly liked his student films. During the visit, Hirsch pitched Gravity Falls to Braly. Fascinated by the concept and how Hirsch wanted it to be a serialized program, Braly did a test to work on the show, after which he was hired, serving as a storyboard art"
+  },
+  {
+   "role": "assistant",
+   "content": "The search result gives me information about Matt Braly but doesn't mention a funding date of March 17, 2026. Let me search more specifically for his recent projects.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_011DG9G4u32qqrm7EmJD4V2g",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly new animated series 2026 crowdfunding\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_011DG9G4u32qqrm7EmJD4V2g",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. == Early life == Braly was born in Sacramento on November 8, 1988, and raised in Davis, while spending his summers, as a child, with his mother's family in Bangkok, Thailand. He also grew up in a bilingual household. As a child, Braly used to watch films such as Mortal Kombat (1995) because they were filmed in Thailand, as there was no Thai representation on television. He would later draw characters from franchises like Mortal Kombat and Sonic the Hedgehog. At age 17, in 2006, he graduated from Christian Brothers High School, a private, Catholic, college-preparatory high school in the Oak Park neighborhood of Sacramento. Prior to graduating, Braly was inspired to pursue a career in animation after a \"career day\" at high school, where a Pixar animator drew an image of Lumiere from Disney's Beauty and the Beast while talking about working on animation for a living. He started his career studying at the California Institute of the Arts (CalArts); he graduated in 2010 with a Bachelor of Fine Arts. == Career == After graduating from California Institute of the Arts, he joined DreamWorks Animation, where he worked as a storyboard artist for Turbo (2013). While working on Turbo, Braly and several other DreamWorks Animation storyboard artists went to visit Alex Hirsch, who was working on a show titled Gravity Falls (2012–16) for Disney Television Animation. Hirsch also went to CalArts and, while they never studied together, Braly liked his student films. During the visit, Hirsch pitched Gravity Falls to Braly. Fascinated by the concept and how Hirsch wanted it to be a serialized program, Braly did a test to work on the show, after which he was hired, serving as a storyboard art"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach to find information about his indie project.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01EiwJ2U2Ui8V4i5yhFxjEEP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"Matt Braly\\\" indie animated series Kickstarter\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01EiwJ2U2Ui8V4i5yhFxjEEP",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. == Early life == Braly was born in Sacramento on November 8, 1988, and raised in Davis, while spending his summers, as a child, with his mother's family in Bangkok, Thailand. He also grew up in a bilingual household. As a child, Braly used to watch films such as Mortal Kombat (1995) because they were filmed in Thailand, as there was no Thai representation on television. He would later draw characters from franchises like Mortal Kombat and Sonic the Hedgehog. At age 17, in 2006, he graduated from Christian Brothers High School, a private, Catholic, college-preparatory high school in the Oak Park neighborhood of Sacramento. Prior to graduating, Braly was inspired to pursue a career in animation after a \"career day\" at high school, where a Pixar animator drew an image of Lumiere from Disney's Beauty and the Beast while talking about working on animation for a living. He started his career studying at the California Institute of the Arts (CalArts); he graduated in 2010 with a Bachelor of Fine Arts. == Career == After graduating from California Institute of the Arts, he joined DreamWorks Animation, where he worked as a storyboard artist for Turbo (2013). While working on Turbo, Braly and several other DreamWorks Animation storyboard artists went to visit Alex Hirsch, who was working on a show titled Gravity Falls (2012–16) for Disney Television Animation. Hirsch also went to CalArts and, while they never studied together, Braly liked his student films. During the visit, Hirsch pitched Gravity Falls to Braly. Fascinated by the concept and how Hirsch wanted it to be a serialized program, Braly did a test to work on the show, after which he was hired, serving as a storyboard art"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more recent Matt Braly projects with a different query.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GPotNbpyJ4oD9Pur8fUdVN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"Matt Braly\\\" new project 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GPotNbpyJ4oD9Pur8fUdVN",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. == Early life == Braly was born in Sacramento on November 8, 1988, and raised in Davis, while spending his summers, as a child, with his mother's family in Bangkok, Thailand. He also grew up in a bilingual household. As a child, Braly used to watch films such as Mortal Kombat (1995) because they were filmed in Thailand, as there was no Thai representation on television. He would later draw characters from franchises like Mortal Kombat and Sonic the Hedgehog. At age 17, in 2006, he graduated from Christian Brothers High School, a private, Catholic, college-preparatory high school in the Oak Park neighborhood of Sacramento. Prior to graduating, Braly was inspired to pursue a career in animation after a \"career day\" at high school, where a Pixar animator drew an image of Lumiere from Disney's Beauty and the Beast while talking about working on animation for a living. He started his career studying at the California Institute of the Arts (CalArts); he graduated in 2010 with a Bachelor of Fine Arts. == Career == After graduating from California Institute of the Arts, he joined DreamWorks Animation, where he worked as a storyboard artist for Turbo (2013). While working on Turbo, Braly and several other DreamWorks Animation storyboard artists went to visit Alex Hirsch, who was working on a show titled Gravity Falls (2012–16) for Disney Television Animation. Hirsch also went to CalArts and, while they never studied together, Braly liked his student films. During the visit, Hirsch pitched Gravity Falls to Braly. Fascinated by the concept and how Hirsch wanted it to be a serialized program, Braly did a test to work on the show, after which he was hired, serving as a storyboard art"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching with a focus on the specific funding date mentioned.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015VSwy3GArahGHwZgqNLUbE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"March 17, 2026\\\" animated series funded\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015VSwy3GArahGHwZgqNLUbE",
+   "content": "[Crash Course (web series)] Crash Course (sometimes stylized as CrashCourse) is an educational YouTube channel started by John Green and Hank Green (collectively the Green brothers), who became known on YouTube through their Vlogbrothers channel. Crash Course was one of the hundred initial channels funded by YouTube's $100 million original channel initiative. The channel launched a preview on December 2, 2011, and as of March 2026, it has accumulated over 17 million subscribers and 2.2 billion video views. The channel launched with John and Hank presenting their respective World History and Biology series; the early history of the channel continued the trend of John and Hank presenting humanities and science courses, respectively. In November 2014, Hank announced a partnership with PBS Digital Studios, which would allow the channel to produce more courses. As a result, multiple additional hosts joined the show to increase the number of concurrent series. As of 2026, there are over 50 main series of Crash Course, of which John has hosted nine and Hank has hosted seven. Together with Emily Graslie, they also co-hosted Big History. A second channel, Crash Course Kids, was hosted by Sabrina Cruz and completed a series on Science. The first foreign-language course, an Arabic reworking of the original World History series, is hosted by Yasser Abumuailek. The main channel has also begun a series of shorter animated episodes, called Recess, that focus on topics from the previous Crash Course series. A collaboration with Arizona State University titled Study Hall began in 2020, which includes less structured learning in its topics. == History and funding == === YouTube-funded and Subbable periods (2011–2014) === The Crash Course YouTube channel was conceived by the Green Brothers after YouTube approached them with an opportunity to launch one of the initial YouTube-funded channels as part of the platform's original channel initiative. The channel was teased in December 2011,"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a more specific search combining Matt Braly with animation project names.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01X9vB6rQZYFALUAiw84TdTj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly \\\"Ghosts\\\" animated series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01X9vB6rQZYFALUAiw84TdTj",
+   "content": "[1st Children's and Family Emmy Awards] The 1st Children's and Family Emmy Awards were presented by the National Academy of Television Arts and Sciences (NATAS) to honor the best in American children's and family-oriented television programming in 2021 and 2022. The eligibility period ran from January 1, 2021, to May 31, 2022; starting the following year, the eligibility window will be from June 1 to May 31 every year. The winners were announced during two ceremonies—one focused on creative and technical arts, and the other dedicated to performances and programming—that were held at Wilshire Ebell Theatre, Los Angeles on December 10 and 11, 2022. Dancer and media personality JoJo Siwa hosted the December 10 ceremony, while the December 11 ceremony was hosted by actor and comedian Jack McBrayer. On November 17, 2021, the NATAS announced the creation of the Children's and Family Emmy Awards to recognize the best in children's and family television. The organization cited an \"explosive growth in the quantity and quality of children's and family programming\" as justification for a dedicated ceremony. Many categories of the awards were previously presented at the Daytime Emmy Awards. Nominations were announced on November 1, 2022, with programs The Mysterious Benedict Society and Sneakerella leading with 11 nods each. American actor and television host LeVar Burton received the inaugural Lifetime Achievement award. == Winners and nominees == The nominees were announced on November 1, 2022. === Programming === === Performer === === Art Direction === === Casting === === Animation === === Cinematography and Lighting === === Choreography and Stunts === === Costumes, Makeup and Hairstyling === === Directing === === Editing === === Main Title and Graphics === === Music === === Sound === === Visual and Special Effects === === Writing === === Lifetime Achievement Award === LeVar Burton == Presenters and performers == The following presented awards and performing numbers: == Show"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try another search approach with different keywords.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014uBgRVrETiqbsqqaCucEBs",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Matt Braly independent animation project\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014uBgRVrETiqbsqqaCucEBs",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens. == Early life == Braly was born in Sacramento on November 8, 1988, and raised in Davis, while spending his summers, as a child, with his mother's family in Bangkok, Thailand. He also grew up in a bilingual household. As a child, Braly used to watch films such as Mortal Kombat (1995) because they were filmed in Thailand, as there was no Thai representation on television. He would later draw characters from franchises like Mortal Kombat and Sonic the Hedgehog. At age 17, in 2006, he graduated from Christian Brothers High School, a private, Catholic, college-preparatory high school in the Oak Park neighborhood of Sacramento. Prior to graduating, Braly was inspired to pursue a career in animation after a \"career day\" at high school, where a Pixar animator drew an image of Lumiere from Disney's Beauty and the Beast while talking about working on animation for a living. He started his career studying at the California Institute of the Arts (CalArts); he graduated in 2010 with a Bachelor of Fine Arts. == Career == After graduating from California Institute of the Arts, he joined DreamWorks Animation, where he worked as a storyboard artist for Turbo (2013). While working on Turbo, Braly and several other DreamWorks Animation storyboard artists went to visit Alex Hirsch, who was working on a show titled Gravity Falls (2012–16) for Disney Television Animation. Hirsch also went to CalArts and, while they never studied together, Braly liked his student films. During the visit, Hirsch pitched Gravity Falls to Braly. Fascinated by the concept and how Hirsch wanted it to be a serialized program, Braly did a test to work on the show, after which he was hired, serving as a storyboard art"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on my search results, I was unable to find specific information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026. The search results only provided information about his well-known work on Disney Channel's \"Amphibia,\" as well as his contributions to \"Gravity Falls\" and \"Big City Greens,\" but did not contain details about an independent animated project with that specific funding date.\n\nFINAL: Я не смог найти информацию об этом проекте в доступных источниках.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the answer. On February 26, 2026, Pakistan's Defence Minister Khawaja Asif declared an \"open war\" between Pakistan and Afghanistan.\n\nFINAL: Pakistan declared an \"open war\" between the two countries (announced by Defence Minister Khawaja Asif).",
+ "correct": true,
+ "cost": 0.022009999999999863,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about what Pakistan's government declared on February 26, 2026 regarding the Afghanistan-Pakistan war.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CfsXMkZo1NGhwc8JeWpbG8",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Afghanistan Pakistan war February 26 2026 declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CfsXMkZo1NGhwc8JeWpbG8",
+   "content": "[2025 Afghanistan–Pakistan conflict] In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airstrikes inside Afghanistan, which Afghan locals and media said hit Kabul and military sites in Kandahar, while the Taliban attributed the Kabul explosion to an oil-tanker blast. Following a 48-hour ceasefire, which was only set by Pakistan publicly, the Pakistani military carried out airstrikes in Paktika province after the truce expired. The Taliban accused Pakistan of targeting civilians in Paktika, while Pakistan rebutted that the strikes targeted militants "
+  },
+  {
+   "role": "assistant",
+   "content": "The search result shows information about the 2025 Afghanistan-Pakistan conflict, but doesn't mention anything about February 26, 2026. Let me search more specifically for that date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015kWztmgWvwKQ4VuvjFZsrQ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2025 Afghanistan–Pakistan conflict\", \"keywords\": \"February 26 2026 declaration Pakistan\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015kWztmgWvwKQ4VuvjFZsrQ",
+   "content": "Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand prov\nHeavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airstrikes inside Afghanistan, which Afghan locals and media said hit Kabul and military sites in Kandahar, while the Taliban attributed the Kabul explosion to an oil-tan\nOn the night of 11 October, the Afghan Taliban—through the Islamic National Army led by Qari Fasihuddin—launched an attack on multiple Pakistani military posts along the Afghanistan-Pakistan border. Afghan officials stated that the attack was in response to the Pakistani airstrikes in Afghanistan. The Afghan government claimed to have killed 58 Pakistani personnel, with 9 Afghan soldiers killed. H\n2026 Afghanistan–Pakistan conflict"
+  },
+  {
+   "role": "assistant",
+   "content": "I see there's a reference to \"2026 Afghanistan–Pakistan conflict\". Let me search for that specific article.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QhtS4TRWgrNunAfk8hL9eh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"2026 Afghanistan Pakistan conflict\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QhtS4TRWgrNunAfk8hL9eh",
+   "content": "[2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan. == Background == The conflict occurred against the backdrop of long-running tensions between Afghanistan and Pakistan rooted in disputes dating back to the independence of Pakistan in 1947. Afghanistan has historically challenged the legitimacy of the Durand Line, which forms the international border between the two nations, contributing to decades of strained relations and periodic clashes. Relations deteriorated further following the Taliban's return to power in 2021 in the aftermath of the US withdrawal from Afghanistan. Pakistan has repeatedly accused Afghanistan of providing safe haven to militant groups, particularly the Tehreek-e-Taliban Pakistan (TTP), which has carried out attacks in Pakistan in order to establish an Islamic emirate, similar to the model of government in Afghanistan. Taliban authorities have generally denied these allegations. Tensions escalated in 2025 after a surge in cross-border violence and militant attacks. In October 2025, some of the deadliest c"
+  },
+  {
+   "role": "assistant",
+   "content": "Good! Now I have information about the 2026 Afghanistan-Pakistan war. Let me search for the specific declaration on February 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01YT42AiUfUMUKfULsLkDpYT",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 Afghanistan–Pakistan war\", \"keywords\": \"February 26 2026 declaration Pakistan\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01YT42AiUfUMUKfULsLkDpYT",
+   "content": "Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence mini\nThe war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 a\nIn early 2026, Pakistan experienced a series of major attacks, primarily in its frontier provinces of Balochistan and Khyber Pakhtunkhwa, alongside a major suicide bombing in the capital of Islamabad. Pakistani officials attributed several of these attacks to militant groups operating from Afghan territory and warned that military action could follow if the Taliban did not act against these groups\nOn 11 February 2026, Pakistani Defence Minister Khawaja Asif warned that Pakistan may take action against militants in Afghanistan before the start of the Islamic month of Ramadan if the Taliban failed to deter militant activities from the territory under their control.\nFollowing further attacks in February, Pakistani officials signalled that their restraint had been exhausted, setting the stage for the airstrikes that began the conflict.\nDuring the night of 21 February, local sources in Afghanistan reported airstrikes in parts of Nangarhar, Paktika, and Khost provinces. In Nangarhar, strikes were reported in the Bihsud and Khogyani districts, while in Paktika, strikes were reported in the Barmal and Urgun districts. Local sources reported that the airstrikes in Nangarhar's Bihsud distr"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm getting closer but haven't found the specific declaration on February 26, 2026 yet. Let me search more specifically for that date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01J2oLx36NrDAxSFfTTMBPF5",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 Afghanistan–Pakistan war\", \"keywords\": \"26 February war declaration Khawaja Asif\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01J2oLx36NrDAxSFfTTMBPF5",
+   "content": "Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence mini\nOn 11 February 2026, Pakistani Defence Minister Khawaja Asif warned that Pakistan may take action against militants in Afghanistan before the start of the Islamic month of Ramadan if the Taliban failed to deter militant activities from the territory under their control.\nIn response to the Taliban's operation, Pakistan carried out air and ground strikes against Afghan Taliban positions in Kabul, Kandahar, Paktia, and Nangarhar. Faisal Karim Kundi, governor of Khyber Pakhtunkhwa, stated that the Afghan Taliban started the war and Pakistan will be the one to end it, while Khawaja Asif, Pakistan's defence minister, announced the start of an \"open war\" between the two\nPakistan: Pakistan's Minister of Defence Khawaja Asif declared an \"open war\" between the two countries."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the answer. On February 26, 2026, Pakistan's Defence Minister Khawaja Asif declared an \"open war\" between Pakistan and Afghanistan.\n\nFINAL: Pakistan declared an \"open war\" between the two countries (announced by Defence Minister Khawaja Asif).",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

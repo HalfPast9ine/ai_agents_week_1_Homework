@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "What city hosted the 2026 BWF World Championships in sports in August?",
+  "answer": "New Delhi",
+  "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Zhengzhou",
+  "agent_ok": true
+ },
+ "answer": "The city that hosted the 2026 BWF World Championships was New Delhi, India. \n\nFINAL: New Delhi, India",
+ "correct": true,
+ "cost": 0.00021165000000000767,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 BWF World Championships in sports in August?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1cUQ3VZUaLX4vAc6XCyAdhn5",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 BWF World Championships host city\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1cUQ3VZUaLX4vAc6XCyAdhn5",
+   "content": "[2026 BWF World Championships] The 2026 BWF World Championships is the 30th edition of the world badminton championships. It took place in New Delhi, India in 2026. India hosted the World Championships for the first time since 2009. == Host selection == The host nation India was originally supposed to hold the Sudirman Cup in 2023, however due to all events in China getting cancelled in 2021, the Sudirman Cup was moved to Vantaa in Finland with the 2023 Sudirman Cup going to Suzhou, China. India thereby was selected as the hosts of the 2026 World Championships due to the transfer of the hosting rights of 2023 Sudirman Cup. New Delhi was announced to be the host city after the 2025 BWF World Championships at Paris. == Competition schedule == The tournament lasts over 7 days. == Point distribution == Below is the tables with the point distribution for each phase of the tournament based on the BWF points system for the World Championships event. == Medal summary == === Medal table === * Host nation (India) === Medalists === France achieved its most successful World Championships in the tournament's history, winning two gold medals. Alex Lanier became the first French player to win a men's singles world title, while Thom Gicquel and Delphine Delrue won France's first mixed doubles world championship. == Qualifiers == === Number of participants === === Players participating in two events === == Performance by nations == == References =="
+  },
+  {
+   "role": "assistant",
+   "content": "The city that hosted the 2026 BWF World Championships was New Delhi, India. \n\nFINAL: New Delhi, India",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

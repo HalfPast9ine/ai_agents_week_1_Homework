@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Clay Fuller won the special election in Georgia's 14th congressional district in 2026. FINAL: Clay Fuller",
+ "correct": true,
+ "cost": 0.00017730000000000523,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_AoMu9IlVwNVNRSaIH0El7G0m",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Georgia special election 2026 results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_AoMu9IlVwNVNRSaIH0El7G0m",
+   "content": "[2026 Georgia's 14th congressional district special election] The 2026 Georgia's 14th congressional district special election was held on March 10, 2026, to fill the vacancy in Georgia's 14th congressional district. The seat became vacant on January 5, 2026, when incumbent Marjorie Taylor Greene resigned. Under Georgia law, all candidates appeared on one ballot in the March 10, 2026 special election. As no candidate received more than 50% of the vote, a runoff election between district attorney Clay Fuller and cattleman Shawn Harris was held on April 7, 2026, with Fuller winning to serve the remainder of the 119th United States Congress, ending January 3, 2027. == Background == On November 21, 2025, Greene announced her resignation from Congress effective January 5, 2026, citing her disagreements with President Donald Trump over his handling of the Epstein files. The following day, Governor Brian Kemp scheduled a special election for March 10, 2026, with a runoff set for April 7 if no candidate received a majority of the vote. == Candidates == === Republican Party === ==== Advanced to runoff ==== Clay Fuller, former district attorney for the Lookout Mountain Judicial Circuit (2020–2026) and candidate for this district in 2020 ==== Eliminated in first round ==== Star Black, former Federal Emergency Management Agency official Reagan Box, horse trainer Beau Brown, risk management consultant Eric Cunningham, sales executive and candidate for this district in 2022 Tom Gray, pastor and candidate for Georgia's 36th House of Representatives district in 2018 Nicky Lama, Dalton city councilmember Colton Moore, state senator from the 53rd district (2023–2026) Brian Stover, former Paulding County commissioner Megahn Strickland, travel consultant Jim Tully, congressional staffer and chairman of the 14th district Republican Party Jennifer Turnipseed, farmer ==== Withdrawn ==== Marty Brown, firefighter (running for state senate; endorsed Moore) Elvis Casely, entrepreneur (running "
+  },
+  {
+   "role": "assistant",
+   "content": "Clay Fuller won the special election in Georgia's 14th congressional district in 2026. FINAL: Clay Fuller",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

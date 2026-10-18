@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "fresh-70",
+  "source": "fresh",
+  "question": "What new service begins on March 26, 2026, in rail transport in Europe?",
+  "answer": "night train service",
+  "evidence": "26 March – European Sleeper begins a night train service between Paris, Brussels, and Berlin.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "ошибка: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=18092): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение\")))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

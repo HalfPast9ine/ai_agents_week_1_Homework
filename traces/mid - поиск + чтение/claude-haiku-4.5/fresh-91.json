@@ -1,0 +1,164 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: ₹25,863 crore (US$2.7 billion)",
+ "correct": true,
+ "cost": 0.029139000000000248,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the VB-G RAM-G scheme and the amount released by Shivraj Singh Chouhan in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RtFrXU6gJn63XDcub6dRRW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026 amount released\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RtFrXU6gJn63XDcub6dRRW",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. == Incumbents == === National office bearers === === State governments === === Union territory governments === == Events == === January === 2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh. 5 January – A magnitude 5.1 earthquake hits Assam, injuring three people. 9 January – Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh. At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January. 19 January – Nitin Nabin is elected as the National President of the Bharatiya Janata Party. At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand. 20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam. 21 January – An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat. A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported. 22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others. 24 January – A fire at a four-story building in Hyderabad, Telangana, kills six people. 26 January – Protests break out across the country over the UGC Bill 2026. 27 January – India and the European Union reach a free trade agreement. 28 January – 2026 Baramati Learjet 45 crash: Five people, including Maharashtra deputy chief minister, Ajit Pawar, are killed after a Learjet 45 crashes and explodes at Baramati Airport in Maharashtra. 29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups. 30 January – At least 25 people "
+  },
+  {
+   "role": "assistant",
+   "content": "The search result shows this is about future events (July 2026), but it only gives a general overview of 2026 events without specific information about the VB-G RAM-G scheme. Let me search more specifically for this scheme.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XutzoKDYGVa1iCcfSjmMBy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"VB-G RAM-G scheme Madhya Pradesh\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XutzoKDYGVa1iCcfSjmMBy",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. == Incumbents == === National office bearers === === State governments === === Union territory governments === == Events == === January === 2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh. 5 January – A magnitude 5.1 earthquake hits Assam, injuring three people. 9 January – Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh. At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January. 19 January – Nitin Nabin is elected as the National President of the Bharatiya Janata Party. At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand. 20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam. 21 January – An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat. A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported. 22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others. 24 January – A fire at a four-story building in Hyderabad, Telangana, kills six people. 26 January – Protests break out across the country over the UGC Bill 2026. 27 January – India and the European Union reach a free trade agreement. 28 January – 2026 Baramati Learjet 45 crash: Five people, including Maharashtra deputy chief minister, Ajit Pawar, are killed after a Learjet 45 crashes and explodes at Baramati Airport in Maharashtra. 29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups. 30 January – At least 25 people "
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach for this specific scheme.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CTqG1w15xJmNroGgW8oTqb",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"VB-G RAM-G\\\" scheme\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CTqG1w15xJmNroGgW8oTqb",
+   "content": "[Mahatma Gandhi National Rural Employment Guarantee Act, 2005] The Mahatma Gandhi National Rural Employment Guarantee Act 2005 (MGNREGA) was an Indian social welfare measure that aimed to guarantee the 'right to work'. This act was passed on 23 August 2005 and was implemented in February 2006 under the UPA government of Prime Minister Manmohan Singh following the tabling of the bill in parliament by the Minister for Rural Development Raghuvansh Prasad Singh. The bill was originally known as the National Rural Employment Guarantee Act (NREGA). In 2025, it was repealed by the Parliament of India after the Lok Sabha and Rajya Sabha passed the Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 (VB–G RAM G). The new legislation replaced MGNREGA with an updated rural employment and livelihood guarantee framework under the Ministry of Rural Development. It aimed to enhance livelihood security in rural areas by providing at least 100 days of assured and guaranteed wage employment in a financial year to at least one member of every Indian rural household whose adult members volunteer to do unskilled manual work. Women are guaranteed one half of the jobs made available under the MGNREGA and efforts are made to ensure that cross the limit of 50%. Another aim of MGNREGA is to create durable assets (such as roads, canals, ponds and wells). Employment is to be provided within 5 km of an applicant's residence, and minimum legal wage under the law is to be paid. If work is not provided within 15 days of applying, applicants are entitled to an unemployment allowance. That is, if the government fails to provide employment, it has to provide certain unemployment allowances to those people. Thus, employment under MGNREGA is a legal entitlement. Apart from providing economic security and creating rural assets, other things said to promote NREGA are that it can help in protecting the environment, empowering rural women, reducing rural-urban migration and fostering"
+  },
+  {
+   "role": "assistant",
+   "content": "Good! I found that VB-G RAM-G is the \"Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025\" which replaced MGNREGA. Now let me search for the specific July 2026 release by Shivraj Singh Chouhan.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018VT9xLUK5dajnnnhjzmvtG",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Mahatma Gandhi National Rural Employment Guarantee Act, 2005\", \"keywords\": \"Shivraj Singh Chouhan July 2026 amount released VB-G RAM-G\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018VT9xLUK5dajnnnhjzmvtG",
+   "content": "The Prime Minister of India Manmohan Singh released an anthology of research studies on the MGNREGA called \"MGNREGA Sameeksha\" in New Delhi on 14 July 2012, about a year before the CAG report. Aruna Roy and Nikhil Dey said that \"the MGNREGA Sameeksha is a significant innovation to evaluate policy and delivery\". The anthology draws on independent assessments of MGNREGA conducted by Indian Institute"
+  },
+  {
+   "role": "assistant",
+   "content": "That didn't find the specific information. Let me try searching with different keywords.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01KV5qvrfk3VRsPmbjGsoy1Z",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"Shivraj Singh Chouhan\\\" \\\"July 2026\\\" VB-G amount\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01KV5qvrfk3VRsPmbjGsoy1Z",
+   "content": "[2026 in India] The following is a list of events for the year 2026 in India. == Incumbents == === National office bearers === === State governments === === Union territory governments === == Events == === January === 2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh. 5 January – A magnitude 5.1 earthquake hits Assam, injuring three people. 9 January – Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh. At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January. 19 January – Nitin Nabin is elected as the National President of the Bharatiya Janata Party. At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand. 20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam. 21 January – An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat. A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported. 22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others. 24 January – A fire at a four-story building in Hyderabad, Telangana, kills six people. 26 January – Protests break out across the country over the UGC Bill 2026. 27 January – India and the European Union reach a free trade agreement. 28 January – 2026 Baramati Learjet 45 crash: Five people, including Maharashtra deputy chief minister, Ajit Pawar, are killed after a Learjet 45 crashes and explodes at Baramati Airport in Maharashtra. 29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups. 30 January – At least 25 people "
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for the full 2026 events page to find July 2026 information.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LRm6SiEcJ8ty8WrvXvPCcB",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in India\", \"keywords\": \"Shivraj Singh Chouhan July VB-G RAM-G amount released\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LRm6SiEcJ8ty8WrvXvPCcB",
+   "content": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: ₹25,863 crore (US$2.7 billion)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

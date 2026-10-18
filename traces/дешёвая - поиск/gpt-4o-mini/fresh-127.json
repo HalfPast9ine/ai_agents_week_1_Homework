@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "What tournament occurred at Augusta National Golf Club in April 2026?",
+  "answer": "2026 Masters Tournament",
+  "evidence": "April 9–12: 2026 Masters Tournament at Augusta National Golf Club in Augusta, Georgia – Rory McIlroy",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "В апреле 2026 года на Augusta National Golf Club прошел 90-й розыгрыш Мастеров (Masters Tournament). Турнир состоялся с 9 по 12 апреля, и его выиграл Рори МаКлрой. \n\nFINAL: 90-й Мастерс (Masters Tournament)",
+ "correct": false,
+ "cost": 0.00039015000000000577,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What tournament occurred at Augusta National Golf Club in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1PizI1X0dBYpoVqeL571U7UX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Augusta National Golf Club April 2026 tournament\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1PizI1X0dBYpoVqeL571U7UX",
+   "content": "[Augusta National Golf Club] Augusta National Golf Club (ANGC; also Augusta National, Augusta, or the National) is a golf club in Augusta, Georgia, United States. It is known for hosting the annual Masters Tournament. Founded by Bobby Jones and Clifford Roberts, the course was designed by Jones and Alister MacKenzie and opened for play in 1932. Unlike most private clubs which operate as non-profits, Augusta National is a for-profit corporation, and it does not disclose its income, holdings, membership list, or ticket sales. It is a winter club and is closed every summer from late May through mid-October. Since 1934, the club has played host to the Masters Tournament, one of the four men's major championships in professional golf, and the only major played each year at the same course. It was the top-ranked course in Golf Digest's 2009 list of America's 100 greatest courses and was the number ten-ranked course based on course architecture on Golfweek Magazine's 2011 list of best classic courses in the United States. In 2019, the course began co-hosting the Augusta National Women's Amateur with Champions Retreat Golf Club. Fred Ridley has been Augusta National's chairman since October 16, 2017. == History == === Early planning === Augusta National (originally, during planning stages, Augusta-National) was founded in 1932 by Bobby Jones and Clifford Roberts on the 365-acre (148 ha) site of a former nursery and antebellum plantation called Fruitland (later Fruitlands). Jones sought to create a world-class winter golf course in his native state of Georgia. During the first decade of the club's existence, membership was low and finances were short due to the Great Depression and the relatively remote location of Augusta, forcing the duo to scrap future plans for a \"ladies' course\", squash and tennis courts, and various estates. Roberts later said that had they known how long the Depression would last, they would not have proceeded. Other names considered for the club were"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pZqiRj0GmdIQhP5RKUksGWOP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Masters Tournament April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pZqiRj0GmdIQhP5RKUksGWOP",
+   "content": "[2026 Masters Tournament] The 2026 Masters Tournament was the 90th edition of the Masters Tournament and the first of the four men's major golf championships held in 2026. The tournament was played April 9–12 at Augusta National Golf Club in Augusta, Georgia, United States. Rory McIlroy won the tournament for the second consecutive year, one stroke ahead of runner-up Scottie Scheffler. He joined Jack Nicklaus, Nick Faldo and Tiger Woods as the only players to win two years consecutively. == Course == The 17th hole (Nandina) was lengthened by 10 yards (9 m) for the 2026 tournament, making the hole's total length 450 yards (410 m). A new three-story Player Services Building was in use for the first time at this tournament. == Field == The field included 91 players, including six amateurs. Going into the tournament, Scottie Scheffler was the betting favorite to win. Scheffler and Rory McIlroy were returning to play after three-week breaks. Twenty-two golfers made their Masters debut, including Jacob Bridgeman, Ben Griffin, Chris Gotterup and Kristoffer Reitan, all but Reitan were ranked in the top 20 in the Official World Golf Ranking. There were eight Nordic players in the field, the most of any year. Neither Phil Mickelson nor Tiger Woods played, which had not happened since the 1994 tournament. === Criteria === Participation in the Masters Tournament is by invitation only, and the tournament has the smallest field of the major championships. Invitations are issued to all past winners, recent major champions, leading finishers in the previous year's majors, leading players from the PGA Tour season, winners of full-point regular-season tournaments on the PGA Tour during the previous 12 months, leading players in the Official World Golf Ranking, and some leading amateurs. In August 2025, Augusta National announced that invitations would also go to winners of several national opens, and no longer to winners during the PGA Tour's FedEx Cup Fall. Players for the 2026 tour"
+  },
+  {
+   "role": "assistant",
+   "content": "В апреле 2026 года на Augusta National Golf Club прошел 90-й розыгрыш Мастеров (Masters Tournament). Турнир состоялся с 9 по 12 апреля, и его выиграл Рори МаКлрой. \n\nFINAL: 90-й Мастерс (Masters Tournament)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-95",
+  "source": "fresh",
+  "question": "Which country won the 2026 Men's T20 World Cup in cricket?",
+  "answer": "India",
+  "evidence": "8 March – India beat New Zealand in the final match and win the 2026 Men's T20 World Cup in cricket.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "India won the 2026 Men's T20 World Cup by defeating New Zealand in the final. FINAL: India",
+ "correct": true,
+ "cost": 0.00018089999999999773,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 Men's T20 World Cup in cricket?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JrAzwqDLnYgCjG4rh4iN69nn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Men's T20 World Cup winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JrAzwqDLnYgCjG4rh4iN69nn",
+   "content": "[2026 Men's T20 World Cup] The 2026 ICC Men's T20 World Cup was the tenth edition of the ICC Men's T20 World Cup, co-hosted by Board of Control for Cricket in India and Sri Lanka Cricket from 7 February to 8 March 2026. Sri Lanka had previously hosted the competition in 2012 and India in 2016. A total of twenty teams competed in 55 matches across five venues in India and three in Sri Lanka. More than 1.3 million spectators attended the matches across the two nations. Twenty teams competed in the tournament, which included the teams from the two hosts, six of the top seven teams from the previous edition, the four highest-ranked teams in the ICC Men's T20I Team Rankings not already qualified, and eight other teams determined through a series of regional qualifiers. Italy qualified for the Men's T20 World Cup for the first time. India were the defending champions, having won the 2024 edition. They defended their title by defeating New Zealand by 96 runs in the final, becoming the first team to win two consecutive T20 World Cups, the first country to win the title at home, and the first team to win the tournament three times. == Background == The ICC Men's T20 World Cup is a biennial world cup for cricket in Twenty20 International (T20I) format, organised by the International Cricket Council (ICC). It was first played in 2007 in South Africa, and the 2026 tournament marked its tenth edition. The ninth edition, held in 2024 in the West Indies and the United States, was contested by 20 teams, and was won by India, who defeated South Africa in the final. === Host selection === In November 2021, as part of the 2024–2031 ICC men's hosts cycle, the ICC announced that the 2026 Men's T20 World Cup would be played in India and Sri Lanka. Initially Sri Lanka Cricket proposed to host the entire tournament, however, due to expansion of the tournament to 20 teams from the previous edition and lack of cricket stadiums in Sri Lanka, it was decided to be co-hosted with the Board of Co"
+  },
+  {
+   "role": "assistant",
+   "content": "India won the 2026 Men's T20 World Cup by defeating New Zealand in the final. FINAL: India",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

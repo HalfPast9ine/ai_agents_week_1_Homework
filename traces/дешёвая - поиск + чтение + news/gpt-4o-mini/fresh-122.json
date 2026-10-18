@@ -1,0 +1,164 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Sussan Ley was ousted by Angus Taylor during a leadership spill on February 13, 2026. \n\nFINAL: Angus Taylor",
+ "correct": true,
+ "cost": 0.0010744500000000046,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EPOCVWH16jCCjw3z7St1MEBJ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Sussan Ley ousted February 2026 Australian politics\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EPOCVWH16jCCjw3z7St1MEBJ",
+   "content": "[Sussan Ley] Sussan Penelope Ley (née Braybrooks; born 14 December 1961) is an Australian retired politician who served as the leader of the Opposition from 2025 to 2026, holding office as the 16th leader of the Liberal Party. She was the member of Parliament (MP) for the New South Wales division of Farrer from 2001 to 2026, and served as a minister in the Abbott, Turnbull, and Morrison governments. Born into an English family in Nigeria, Ley grew up in the Trucial States (now the United Arab Emirates) and England, before moving to Australia as a teenager. Prior to entering politics, she worked as a commercial pilot, farmer and public servant based in Albury. She was elected to the House of Representatives at the 2001 federal election, winning the regional New South Wales seat of Farrer. Ley was appointed parliamentary secretary by John Howard in 2004, serving until the Coalition's defeat at the 2007 election. After the election, she held positions in the Nelson, Turnbull, and Abbott shadow ministries. After the Liberal–National Coalition's victory at the 2013 election, Ley was appointed Assistant Minister for Education by Tony Abbott, later joining the cabinet in 2014 as Minister for Health and Minister for Sport. She continued to serve in the cabinet until January 2017, resigning amid a scandal regarding her travel expenses. She would return to the ministry in August 2018 after Scott Morrison succeeded Malcolm Turnbull as prime minister, becoming an assistant minister and later returning to cabinet in 2019 as Minister for the Environment, remaining in this position until the Coalition's defeat at the 2022 election. Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5GJQv0YORf3EGBGxEZdflaz7",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Sussan Ley\",\"keywords\":\"ousted February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5GJQv0YORf3EGBGxEZdflaz7",
+   "content": "Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton  after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her tenth month as leader in 2026, she was ouste\nOn 8 February 2026, the Coalition reunited following an agreement between the Nationals and Liberals. On the same day, an article in The Daily Telegraph quoted Federal Young Liberal President Cooper Gannon and Vice President Hannah Hutton as calling on her to resign \"for the sake of our nation's future\", being the first time a Young Liberal President explicitly called on the leader to step aside. \nOn 11 February 2026, Angus Taylor resigned from the shadow ministry, citing the Opposition's deteriorating performance under Ley's leadership. In response to the intensifying criticism and Taylor’s resignation, Ley called a leadership spill after Jessica Collins and Phillip Thompson launched a spill motion. The leadership spill was held on 13 February, resulting in Taylor defeating Ley by a margin"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ChF9H49Jx4LDYHbVxdk78DhC",
+     "function": {
+      "name": "news",
+      "arguments": "{\"query\":\"Angus Taylor Sussan Ley leadership spill February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ChF9H49Jx4LDYHbVxdk78DhC",
+   "content": "{\"date\": \"2026-02-09T21:00:00+00:00\", \"title\": \"Pressure mounting on Angus Taylor to challenge Sussan Ley\", \"body\": \"Liberal leadership speculation continued today as MPs await to see if Angus Taylor will launch a challenge to Sussan Ley. Moderate MPs have put to Sussan Ley's office a proposal that would force Angus ...\", \"url\": \"https://www.msn.com/en-au/news/australia/pressure-mounting-on-angus-taylor-to-challenge-sussan-ley/vi-AA1W2cwd?ocid=BingNewsVerp\", \"image\": \"\", \"source\": \"Dailymotion on MSN\"}"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oTeqqVF5Q1acNgPgEfSOaL2e",
+     "function": {
+      "name": "news",
+      "arguments": "{\"query\":\"Angus Taylor defeats Sussan Ley February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oTeqqVF5Q1acNgPgEfSOaL2e",
+   "content": "tool error: DDGSException: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qeK8Fy4y7QsXGSdcnVcJwOqH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Sussan Ley leadership spill outcome February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qeK8Fy4y7QsXGSdcnVcJwOqH",
+   "content": "[Leadership spill] In Australian politics, a leadership spill (or simply a spill) is a declaration that the leadership of a parliamentary party is vacant and open for contest. A spill may involve all or some of the leadership positions (leader and deputy leader in both houses). Where a rival to the existing leader calls for a spill it may also be called a leadership challenge. When successful, it is often said that the former leader has been \"rolled\". In Australian English the colloquial use of the word \"spill\" seems to have begun in the mid-1940s with the contest to replace Prime Minister John Curtin after his death in office on 5 July 1945. When a leadership vacancy arises due to the voluntary resignation or death of the incumbent, the resulting leadership ballot may not be popularly called a leadership spill. For example, after the 1968 disappearance of Harold Holt, the four-candidate Liberal Party leadership ballot was not known as a leadership spill. If the party in question is in government, the election of a new leader will result in a new prime minister, premier or chief minister; if the party is the opposition, the election of a new leader will result in a new opposition leader. There were 72 leadership spills between 1970 and 2015; the phenomenon became increasingly common in the early 21st century. None occurred in the 1960s, 10 in the 1970s, 18 in the 1980s, 13 in the 1990s, and 31 between 2000 and 2015. Spills are three times more likely to occur when a party is in opposition compared to when it holds government. The frequent leadership spills and political instability in the early 21st century – which saw five changes of Prime Ministers between 2010 and 2018 – has led to Australia being dubbed the \"coup capital of the democratic world\" during that period. == Process == In the Westminster system of government, the leader of the party which forms government becomes the prime minister, while the leader of the largest party not in government becomes leader"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vxfhFIEPX6h43de1R2HKNnHJ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Sussan Ley\",\"keywords\":\"leadership spill results February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vxfhFIEPX6h43de1R2HKNnHJ",
+   "content": "Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton  after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her tenth month as leader in 2026, she was ouste\n=== 2026 leadership spill ===\nOn 11 February 2026, Angus Taylor resigned from the shadow ministry, citing the Opposition's deteriorating performance under Ley's leadership. In response to the intensifying criticism and Taylor’s resignation, Ley called a leadership spill after Jessica Collins and Phillip Thompson launched a spill motion. The leadership spill was held on 13 February, resulting in Taylor defeating Ley by a margin\nFollowing the leadership spill, Ley formally announced her resignation from parliament on 27 February. This triggered a by-election in her electorate of Farrer, which was won by One Nation's David Farley."
+  },
+  {
+   "role": "assistant",
+   "content": "Sussan Ley was ousted by Angus Taylor during a leadership spill on February 13, 2026. \n\nFINAL: Angus Taylor",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

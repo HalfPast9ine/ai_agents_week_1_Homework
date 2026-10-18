@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Sussan Ley was ousted from her leadership position in February 2026 by Angus Taylor, who defeated her in a leadership spill on February 13, 2026. FINAL: Angus Taylor",
+ "correct": true,
+ "cost": 0.0005309999999999482,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Pu5ciI1n7ODLB4zFAYs6r8hj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Sussan Ley ousted February 2026 Australian politics\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Pu5ciI1n7ODLB4zFAYs6r8hj",
+   "content": "[Sussan Ley] Sussan Penelope Ley (née Braybrooks; born 14 December 1961) is an Australian retired politician who served as the leader of the Opposition from 2025 to 2026, holding office as the 16th leader of the Liberal Party. She was the member of Parliament (MP) for the New South Wales division of Farrer from 2001 to 2026, and served as a minister in the Abbott, Turnbull, and Morrison governments. Born into an English family in Nigeria, Ley grew up in the Trucial States (now the United Arab Emirates) and England, before moving to Australia as a teenager. Prior to entering politics, she worked as a commercial pilot, farmer and public servant based in Albury. She was elected to the House of Representatives at the 2001 federal election, winning the regional New South Wales seat of Farrer. Ley was appointed parliamentary secretary by John Howard in 2004, serving until the Coalition's defeat at the 2007 election. After the election, she held positions in the Nelson, Turnbull, and Abbott shadow ministries. After the Liberal–National Coalition's victory at the 2013 election, Ley was appointed Assistant Minister for Education by Tony Abbott, later joining the cabinet in 2014 as Minister for Health and Minister for Sport. She continued to serve in the cabinet until January 2017, resigning amid a scandal regarding her travel expenses. She would return to the ministry in August 2018 after Scott Morrison succeeded Malcolm Turnbull as prime minister, becoming an assistant minister and later returning to cabinet in 2019 as Minister for the Environment, remaining in this position until the Coalition's defeat at the 2022 election. Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QXXhtTjfh8bb8ww5F7MSRg4W",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Sussan Ley\",\"keywords\":\"ousted February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QXXhtTjfh8bb8ww5F7MSRg4W",
+   "content": "Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton  after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, becoming leader of the Opposition as the first woman in Australian history to hold either position. In her tenth month as leader in 2026, she was ouste\nOn 8 February 2026, the Coalition reunited following an agreement between the Nationals and Liberals. On the same day, an article in The Daily Telegraph quoted Federal Young Liberal President Cooper Gannon and Vice President Hannah Hutton as calling on her to resign \"for the sake of our nation's future\", being the first time a Young Liberal President explicitly called on the leader to step aside. \nOn 11 February 2026, Angus Taylor resigned from the shadow ministry, citing the Opposition's deteriorating performance under Ley's leadership. In response to the intensifying criticism and Taylor’s resignation, Ley called a leadership spill after Jessica Collins and Phillip Thompson launched a spill motion. The leadership spill was held on 13 February, resulting in Taylor defeating Ley by a margin"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Z4AHvcbreLxFS4PTAtRoelV0",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Angus Taylor\",\"keywords\":\"ousted Sussan Ley February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Z4AHvcbreLxFS4PTAtRoelV0",
+   "content": "Following Peter Dutton's defeat at the 2025 election, he contested the subsequent leadership election, losing to Sussan Ley. Taylor, a prominent member of the National Right party faction, resigned from Ley's shadow cabinet in 2026 amid historically low polling for the Liberal Party. He successfully challenged Ley in a subsequent leadership spill, becoming the leader of the Liberal Party and the l\nOn 28 May 2025, after his leadership election loss, Taylor was appointed to the position of shadow minister for defence in Ley's shadow ministry. On the evening of 11 February 2026, he resigned from the shadow ministry amidst rising speculation of a leadership spill from him against Ley. Taylor formally announced his candidacy for leader of the Liberal Party on the morning of 12 February, with a s"
+  },
+  {
+   "role": "assistant",
+   "content": "Sussan Ley was ousted from her leadership position in February 2026 by Angus Taylor, who defeated her in a leadership spill on February 13, 2026. FINAL: Angus Taylor",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "fresh-67",
+  "source": "fresh",
+  "question": "Who was announced as the winner of the 'Concertgebouw Young Talent Award' by the Concertgebouw in Amsterdam in January 2026?",
+  "answer": "Liam Nassereddine",
+  "evidence": "14 January – The Concertgebouw, Amsterdam announces Liam Nassereddine as the winner of its 'Concertgebouw Young Talent Award'.",
+  "page": "2026 in classical music",
+  "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "ошибка: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=18092): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение\")))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

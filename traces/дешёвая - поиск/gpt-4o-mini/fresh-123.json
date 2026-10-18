@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Информация о том, какая страна разорвала дипломатические отношения с Францией в июне 2026 года, не была найдена. Однако на основании текущих данных, можно предположить, что подобные события могут произойти в контексте сложных международных отношений. \n\nFINAL: Неизвестно.",
+ "correct": false,
+ "cost": 0.0020646000000000275,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_i7hcSdt7Uj2dYykMZGU0Hacc",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_i7hcSdt7Uj2dYykMZGU0Hacc",
+   "content": "[International recognition of Israel] As of February 2026, the State of Israel is recognized as a sovereign state by 169 of the other 192 member states of the United Nations, or approximately 88% of all UN members. The State of Israel was formally established by the Israeli Declaration of Independence on 14 May 1948, and was admitted to the United Nations (UN) as a full member state on 11 May 1949. It also maintains bilateral ties with all of the UNSC Permanent Five. Twenty-three member states have either never formally recognized Israel or have withdrawn their recognition; others have severed diplomatic relations without explicitly withdrawing their recognition. Additionally, many non-recognizing countries have challenged Israel's existence—predominantly those in the Muslim world—due to significant animosity stemming from the Israeli–Palestinian conflict and the Arab–Israeli conflict. == History == On 14 May 1948, the Israeli Declaration of Independence declared the establishment a Jewish state in part of the former British Mandate of Palestine, with borders formally established by the Green Line of the 1949 Armistice Agreements at the end of the 1948 Palestine war. The Arab League was opposed to any partition and to the establishment of Israel, and an Arab coalition jointly invaded the territory of the newly formed country one day after its independence, sparking the 1948 Arab–Israeli War. Following Israel's establishment, the Israeli provisional government was established to govern the Yishuv; and while military operations were still in progress, it was promptly granted de facto recognition by the United States, followed by Iran (which had voted against the Partition Plan), Guatemala, Iceland, Nicaragua, Romania, and Uruguay. The Soviet Union was the first country to grant de jure recognition to Israel on 17 May 1948, followed by Nicaragua, Czechoslovakia, Yugoslavia, and Poland. The United States extended de jure recognition after the first Israeli election, on "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7uvm3FBBsorbavFIOunQhDxo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7uvm3FBBsorbavFIOunQhDxo",
+   "content": "[2025–2026 China–Japan diplomatic crisis] Relations between China and Japan entered a state of crisis in November 2025, after Japanese prime minister Sanae Takaichi said in the Japanese parliament that a Chinese attack on Taiwan could potentially constitute an \"existential crisis for Japan\" under the Legislation for Peace and Security, allowing Japan to take military action in collective self-defence. Following these remarks, the Chinese consul general in Osaka, Xue Jian, made threatening comments against Takaichi on X (formerly Twitter), triggering a diplomatic row between the countries. Both sides protested the other's remarks. In response to questions from Japanese parliamentarians, Takaichi refused to withdraw her remarks, arguing that they were consistent with the Japanese government's existing position on the issue. Japan requested that China take \"appropriate measures\" against Xue. China refused, demanded Takaichi retract her statements, and accused Japan of \"neo-militarism\", issued numerous retaliatory measures against Japan, including issuing a travel advisory, restricting travel and cultural exchanges, and cutting off seafood imports from the country. In 2026, the dispute further escalated with China restricting the export of dual-use items and rare earth materials to Japan. == Background == From 1895 to 1945, the island of Taiwan along with the Penghu islands was under Japanese colonial rule by the terms of the Treaty of Shimonoseki in the aftermath of the First Sino-Japanese War. Following the surrender of Japan in the conclusion of World War II, Taiwan was handed over to the Republic of China (ROC) in 1945, but the ROC soon lost its mainland territory due to its defeat in the Chinese Civil War and retreated its government to Taiwan in 1949. Japan formally \"renounced all right, title, and claim\" to Taiwan in 1952, without naming the specific receiver of Taiwan's sovereignty, which began a long-standing geopolitical dispute. Since 1947, under the auspices"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hD0nreDR5cGxhWkSYYQIcR8O",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country severed diplomatic relations France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hD0nreDR5cGxhWkSYYQIcR8O",
+   "content": "[Foreign relations of Syria] Since the Syrian Republic gained independence from the French Mandate, Syria has seen tension with its neighbours, such as Turkey, Israel, Jordan, Iraq, and Lebanon. Ensuring national security, increasing influence among its Arab neighbours and securing the return of the Golan Heights, had been the primary goals of Ba'athist Syria's foreign policy. Syria is also a full member of the Arab League. Syria enjoyed an improvement in relations with several of the states in its region in the 21st century, prior to the Arab Spring and the Syrian civil war. Due to the Syrian civil war, Ba'athist Syrian government was partially isolated from the countries in the region and the wider international community until 2022. After the fall of the Assad regime in late 2024, the new Syrian government actively engaged with the European Union and neighboring countries including Turkey and the Arab world for post-war reconstruction. == History == === Ba'athist Syria === Under the Ba'athist regime, diplomatic relations were severed with several countries, including Turkey, Canada, France, Australia, New Zealand, Sweden, Denmark, the Netherlands, Germany, the United States, the United Kingdom, Belgium, Spain, Mexico, Qatar, Georgia, and Ukraine. In 2011 and 2012, Syria was suspended from the Organisation of Islamic Cooperation, Union for the Mediterranean and the Arab League. Ba'athist Syria had close ties with its traditional allies, Iran and Russia. Other countries that maintain good relations with the Assad regime include China, North Korea, Vietnam, Fiji, Singapore, Sri Lanka, Laos, Myanmar, Cambodia, Thailand, Philippines, India, Pakistan, Bangladesh, Malaysia, Indonesia Brunei, Armenia, Azerbaijan, Kazakhstan, Kyrgyzstan, Uzbekistan, Turkmenistan, Mongolia, Tajikistan, Greece, Cyprus, North Macedonia, Czech Republic, Romania, Bulgaria, Hungary, Serbia, Montenegro, Vatican City and Belarus. Syria was a candidate state of the Eurasian Economic Union (EAEU). "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qw0wCPcYAMHB52V4NSBw5drm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off relations with France 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qw0wCPcYAMHB52V4NSBw5drm",
+   "content": "[International recognition of Israel] As of February 2026, the State of Israel is recognized as a sovereign state by 169 of the other 192 member states of the United Nations, or approximately 88% of all UN members. The State of Israel was formally established by the Israeli Declaration of Independence on 14 May 1948, and was admitted to the United Nations (UN) as a full member state on 11 May 1949. It also maintains bilateral ties with all of the UNSC Permanent Five. Twenty-three member states have either never formally recognized Israel or have withdrawn their recognition; others have severed diplomatic relations without explicitly withdrawing their recognition. Additionally, many non-recognizing countries have challenged Israel's existence—predominantly those in the Muslim world—due to significant animosity stemming from the Israeli–Palestinian conflict and the Arab–Israeli conflict. == History == On 14 May 1948, the Israeli Declaration of Independence declared the establishment a Jewish state in part of the former British Mandate of Palestine, with borders formally established by the Green Line of the 1949 Armistice Agreements at the end of the 1948 Palestine war. The Arab League was opposed to any partition and to the establishment of Israel, and an Arab coalition jointly invaded the territory of the newly formed country one day after its independence, sparking the 1948 Arab–Israeli War. Following Israel's establishment, the Israeli provisional government was established to govern the Yishuv; and while military operations were still in progress, it was promptly granted de facto recognition by the United States, followed by Iran (which had voted against the Partition Plan), Guatemala, Iceland, Nicaragua, Romania, and Uruguay. The Soviet Union was the first country to grant de jure recognition to Israel on 17 May 1948, followed by Nicaragua, Czechoslovakia, Yugoslavia, and Poland. The United States extended de jure recognition after the first Israeli election, on "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ph2bAhJioMbRv09Hu7XbFUEF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country cut off diplomatic relations from France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ph2bAhJioMbRv09Hu7XbFUEF",
+   "content": "[Foreign relations of Taiwan] Foreign relations of Taiwan, officially the Republic of China (ROC), are accomplished by efforts of the Ministry of Foreign Affairs, a cabinet-level ministry of the central government. As of January 2024, the ROC has formal diplomatic relations with 11 of the 193 United Nations member states and with the Holy See, which governs the Vatican City State. In addition to these relations, the ROC also maintains unofficial relations with 59 UN member states, one self-declared state (Somaliland), three territories (Guam, Hong Kong, and Macau; although, relations with the latter two have been suspended since 2021), and the European Union via its representative offices and consulates. As of 2025, the Government of the Republic of China ranked 33rd on the Diplomacy Index with 110 offices. Historically, the ROC has required its diplomatic allies to recognize it as the sole legitimate government of \"China\", competing for exclusive use of the name \"China\" with the PRC. During the early 1970s, the ROC was replaced by the PRC as the recognized government of \"China\" in the UN following Resolution 2758, which also led to the ROC's loss of its key position as a permanent member on the United Nations Security Council (UNSC) to the PRC in 1971. As international recognition of the ROC continues to dwindle concurrently with the PRC's rise as a great power, ROC foreign policy has changed into a more realistic position of actively seeking dual recognition with the PRC. For consistency with the one China policy, many international organizations that the ROC participates in use alternative names, including \"Chinese Taipei\" at FIFA and the International Olympic Committee (IOC), among others. == Historical context == The ROC government participated in the 1943 Moscow Conference, the Dumbarton Oaks Conference, and the United Nations Conference on International Organization and was a charter member of the United Nations after participating in the alliance that won Wo"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3xg4VeYUkUD4pOZfqdRbm37f",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"France diplomatic relations June 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3xg4VeYUkUD4pOZfqdRbm37f",
+   "content": "[2026 in France] Events in the year 2026 in France. == Incumbents == President: Emmanuel Macron Prime Minister: Sébastien Lecornu == Events == === January === 5 January – A court in Paris convicts ten people on charges of cyber-bullying first lady Brigitte Macron by spreading disinformation and \"malicious remarks\" over her gender, sexuality and personal life. 8 January – Laurent Vinatier, a French researcher imprisoned in Russia since 2024 on charges of failing to register as a \"foreign agent\", is released in a prisoner swap in exchange for Russian basketball player Daniil Kasatkin, who had been detained in France since 2025 on suspicion of involvement in cyberhacking. 15 January – President Macron announces the deployment of additional military forces to Greenland after a Defense Council meeting amid threats by the United States to annex the island. 18 January – The Piton de la Fournaise volcano in Réunion erupts. 23 January – Prime minister Lecornu survives two no-confidence motions filed against him by the LFI and RN over his efforts to pass the government's budget through rarely-invoked provisions of the constitution. 25 January – The French Navy intercepts an oil tanker suspected of being part of the Russian shadow fleet and tows it to Marseille for investigation. 27 January – Former senator Joël Guerriau is convicted of putting MDMA on a drink of MP Sandrine Josso in an attempt to sexually assault her in 2023 and is sentenced to four years' imprisonment. === February === 2 February The Lecornu government passes the annual budget after surviving two no-confidence motions filed by the LFI and RN. A French judge issues arrest warrants for two French-Israeli citizens, accusing them of \"complicity and incitement to genocide\" for blocking humanitarian aid trucks en route to Gaza. 3 February – A teacher is critically injured in a stabbing by a pupil inside a school in Toulon. 6 February – Greenland crisis: France announces that it will open a consulate in Greenland t"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_r4cM5KyqXhRBETEoteUT6ew3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"countries cut diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_r4cM5KyqXhRBETEoteUT6ew3",
+   "content": "[Foreign relations of Israel] Foreign relations of Israel refers to diplomatic and trade relations between Israel and other countries around the world. Israel has diplomatic ties with 165 of the other 192 UN member states as of 12 December 2020. Israel is a member of the United Nations (UN) and a number of other international organisations. Israel maintains full diplomatic relations with two of its Arab neighbours, Egypt and Jordan, after signing peace treaties in 1979 and 1994 respectively. In 2020, Israel signed agreements establishing diplomatic relations with three Arab League countries, Bahrain, the United Arab Emirates, and Morocco. As of 2021, Israel had formal diplomatic relations with 168 countries, while 28 UN member states have either never established, or have broken off diplomatic relations with Israel. Israel's foreign relations are influenced primarily by Israel's strategic situation in the Middle East, the broader Arab–Israeli conflict and the conflict with Iran particularly over Iran's nuclear program, along with the rejection by regional states. Israel's foreign policy goals have therefore been to overcome diplomatic isolation and to achieve recognition and friendly relations with as many nations as possible, both in the Middle East region and further afield. Israel practices both open and secret diplomacy to further national goals, for example, commercial trade and science and technology cooperation, importing raw materials, engaging in military procurement as well as exporting arms and military assistance, intelligence cooperation with its allies, and prisoner-of-war exchanges and other arrangements for hostage releases. It has also sought to foster increased Jewish immigration to Israel and to protect vulnerable Jewish communities in the Diaspora, to offer aid to developing countries and humanitarian assistance to countries facing large-scale disasters. Israel's close friendship with the United States has been a linchpin of its foreign policy si"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Информация о том, какая страна разорвала дипломатические отношения с Францией в июне 2026 года, не была найдена. Однако на основании текущих данных, можно предположить, что подобные события могут произойти в контексте сложных международных отношений. \n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-95",
+  "source": "fresh",
+  "question": "Which country won the 2026 Men's T20 World Cup in cricket?",
+  "answer": "India",
+  "evidence": "8 March – India beat New Zealand in the final match and win the 2026 Men's T20 World Cup in cricket.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "web_search(\"2026 Men's T20 World Cup winner\")",
+ "correct": false,
+ "cost": 3.854999999999831e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Which country won the 2026 Men's T20 World Cup in cricket?"
+  },
+  {
+   "role": "assistant",
+   "content": "web_search(\"2026 Men's T20 World Cup winner\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

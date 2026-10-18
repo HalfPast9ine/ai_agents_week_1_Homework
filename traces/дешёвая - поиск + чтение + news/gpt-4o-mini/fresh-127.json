@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "What tournament occurred at Augusta National Golf Club in April 2026?",
+  "answer": "2026 Masters Tournament",
+  "evidence": "April 9–12: 2026 Masters Tournament at Augusta National Golf Club in Augusta, Georgia – Rory McIlroy",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The tournament that occurred at Augusta National Golf Club in April 2026 was the Masters Tournament, which is held annually at the same location. \n\nFINAL: Masters Tournament",
+ "correct": false,
+ "cost": 0.0005412000000000194,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What tournament occurred at Augusta National Golf Club in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mkZwIYBPNneXQliSK9GjfCtv",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Augusta National Golf Club April 2026 tournament\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mkZwIYBPNneXQliSK9GjfCtv",
+   "content": "[Augusta National Golf Club] Augusta National Golf Club (ANGC; also Augusta National, Augusta, or the National) is a golf club in Augusta, Georgia, United States. It is known for hosting the annual Masters Tournament. Founded by Bobby Jones and Clifford Roberts, the course was designed by Jones and Alister MacKenzie and opened for play in 1932. Unlike most private clubs which operate as non-profits, Augusta National is a for-profit corporation, and it does not disclose its income, holdings, membership list, or ticket sales. It is a winter club and is closed every summer from late May through mid-October. Since 1934, the club has played host to the Masters Tournament, one of the four men's major championships in professional golf, and the only major played each year at the same course. It was the top-ranked course in Golf Digest's 2009 list of America's 100 greatest courses and was the number ten-ranked course based on course architecture on Golfweek Magazine's 2011 list of best classic courses in the United States. In 2019, the course began co-hosting the Augusta National Women's Amateur with Champions Retreat Golf Club. Fred Ridley has been Augusta National's chairman since October 16, 2017. == History == === Early planning === Augusta National (originally, during planning stages, Augusta-National) was founded in 1932 by Bobby Jones and Clifford Roberts on the 365-acre (148 ha) site of a former nursery and antebellum plantation called Fruitland (later Fruitlands). Jones sought to create a world-class winter golf course in his native state of Georgia. During the first decade of the club's existence, membership was low and finances were short due to the Great Depression and the relatively remote location of Augusta, forcing the duo to scrap future plans for a \"ladies' course\", squash and tennis courts, and various estates. Roberts later said that had they known how long the Depression would last, they would not have proceeded. Other names considered for the club were"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_sFY4gIoOu5HxSxKQLqL0FiKY",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Augusta National Golf Club\",\"keywords\":\"April 2026 tournament\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_sFY4gIoOu5HxSxKQLqL0FiKY",
+   "content": "Augusta National and its then-chairman Hootie Johnson are widely known for their disagreement, beginning in 2002, with Martha Burk, then chair of the Washington-based National Council of Women's Organizations; the dispute arose over Augusta National's refusal to admit female members to the club. Burk said she found out about the club's policies in a USA Today column  published April 11, 2002. She \nErected to commemorate the twentieth anniversary of the famous \"double eagle\" scored by Gene Sarazen on this hole, April 7, 1935, which gained him a tie for first place with Craig Wood and in the play-off won the second Masters Tournament. Dedicated April 6, 1955.\nFour of the cabins on the property are reserved for tournament sponsors during the Masters—as of 2026, Mercedes-Benz (Firethorn), IBM, AT&T (Golden Bell), and Bank of America."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2kjDE9H2TCMBd7k1IbpB9ONW",
+     "function": {
+      "name": "news",
+      "arguments": "{\"query\":\"Masters Tournament April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2kjDE9H2TCMBd7k1IbpB9ONW",
+   "content": "{\"date\": \"2026-10-15T18:21:23+00:00\", \"title\": \"Rory McIlroy gets a major lift in pursuit of a rare Masters achievement\", \"body\": \"Rory McIlroy’s second straight Masters victory has strengthened his legacy and set up a historic cha...\", \"url\": \"https://sports.yahoo.com/articles/rory-mcilroy-gets-major-lift-194500176.html\", \"image\": \"https://media.zenfs.com/en/gameday_chatter_552/77acfb4f192c16397ae2597b12e45f49\", \"source\": \"Gameday Chatter · via Yahoo Sports\"}"
+  },
+  {
+   "role": "assistant",
+   "content": "The tournament that occurred at Augusta National Golf Club in April 2026 was the Masters Tournament, which is held annually at the same location. \n\nFINAL: Masters Tournament",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

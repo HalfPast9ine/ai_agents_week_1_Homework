@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-29",
+  "source": "fresh",
+  "question": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?",
+  "answer": "43",
+  "evidence": "18 January – Two high-speed trains derail and collide near Adamuz, killing 43 people.",
+  "page": "2026 in Spain",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Spain",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "web_search(\"train derailment Adamuz Spain January 2026\")",
+ "correct": false,
+ "cost": 4.080000000000056e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the train derailment near Adamuz, Spain, in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "web_search(\"train derailment Adamuz Spain January 2026\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

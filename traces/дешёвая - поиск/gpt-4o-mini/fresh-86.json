@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "fresh-86",
+  "source": "fresh",
+  "question": "What was the surplus reported by the UK government in January 2026?",
+  "answer": "£30.4bn",
+  "evidence": "The UK government reports a surplus of £30.4bn in January, the highest monthly figure since records began.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "The UK government reported a surplus of £15.4 billion in January 2026.",
+  "agent_ok": false
+ },
+ "answer": "ошибка: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=18092): Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение\")))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

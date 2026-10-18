@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "Who won the 2026 Chevron Championship?",
+  "answer": "Nelly Korda",
+  "evidence": "April 23–26: 2026 Chevron Championship at Memorial Park Golf Course in Houston, Texas – Nelly Korda",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Nelly Korda won the 2026 Chevron Championship. FINAL: Nelly Korda",
+ "correct": true,
+ "cost": 0.00022050000000001235,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "Who won the 2026 Chevron Championship?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WEG7q89jc7cg1LJFaNdw4TPR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 Chevron Championship winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WEG7q89jc7cg1LJFaNdw4TPR",
+   "content": "[2026 Chevron Championship] The 2026 Chevron Championship was the 55th Chevron Championship, an LPGA golf tournament held April 23–26 at Memorial Park Golf Course in Houston, Texas. The tournament was in its fifth year with Chevron Corporation as the title sponsor and its 44th year as a major championship. Nelly Korda led wire-to-wire to win her second Chevron Championship and third major. The win also propelled her to the number one world ranking. == Field == Players who have qualified for the event are listed below. Players are listed under the first category in which they qualified; additional qualifying categories are shown in parentheses. 1. Winners of all previous Chevron Championships Pernilla Lindberg did not play 2. Winners of the U.S. Women's Open, Women's PGA Championship, Women's British Open, and The Evian Championship in the previous five years 3. Winners of official LPGA Tour tournaments from the 2024 Chevron Championship through the week immediately preceding the 2026 Chevron Championship 4. All players who finished in the top-10 in the previous year's Chevron Championship Sarah Schmelzel (5) did not play 5. Top-80 on the previous year's season-ending LPGA Tour Race to the CME Globe points list Kristen Gillman did not play 6. Top-40 on the Women's World Golf Rankings as of a March 30, 2026 7. Top-2 players from the previous year's season-ending Ladies European Tour Order of Merit, LPGA of Japan Tour Order of Merit and LPGA of Korea Tour money list Ro Seung-hui (KLPGA) did not play 8. Any LPGA Member who did not compete in the previous year's Chevron Championship major due to injury, illness or maternity, who subsequently received a medical/maternity extension of membership from the LPGA in the previous calendar year, provided they were otherwise qualified to compete in the previous year's Chevron Championship 9. Amateur exemptions 10. Sponsor invitations 11. Top players on the current year LPGA Tour Race to the CME Globe points list at the end of the"
+  },
+  {
+   "role": "assistant",
+   "content": "Nelly Korda won the 2026 Chevron Championship. FINAL: Nelly Korda",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "What tournament occurred at Augusta National Golf Club in April 2026?",
+  "answer": "2026 Masters Tournament",
+  "evidence": "April 9–12: 2026 Masters Tournament at Augusta National Golf Club in Augusta, Georgia – Rory McIlroy",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "web_search \"Augusta National Golf Club tournament April 2026\"",
+ "correct": false,
+ "cost": 3.9600000000000746e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза.СТРОГАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ ИНСТРУМЕНТОВ:1. ВСЕГДА начинай с web_search. Это первый шаг для любого фактического вопроса.2. Если web_search вернул статью, но факта во вступлении нет — зови page_find с ТОЧНЫМ названием статьи из ответа web_search.3. news — используй news если web_search и page_find не дали ответа. news не подходит для фактов из прошлого4. calculator и python_exec — для чисел и дат."
+  },
+  {
+   "role": "user",
+   "content": "What tournament occurred at Augusta National Golf Club in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "web_search \"Augusta National Golf Club tournament April 2026\"",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

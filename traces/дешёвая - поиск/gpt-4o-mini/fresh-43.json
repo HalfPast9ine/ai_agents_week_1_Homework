@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "fresh-43",
+  "source": "fresh",
+  "question": "Who was sworn in as the Mayor of New York City on January 1, 2026?",
+  "answer": "Zohran Mamdani",
+  "evidence": "January 1 – Zohran Mamdani is sworn in as the Mayor of New York City, becoming the first Muslim and Asian American to hold the office.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "Brad Lander was sworn in as the Mayor of New York City on January 1, 2026.",
+  "agent_ok": false
+ },
+ "answer": "ошибка: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}
